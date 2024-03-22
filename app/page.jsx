@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <main >
       <div>
-        This is the starting phase of my portfolio website
+        Getting Started
       </div>
     </main>
   )
