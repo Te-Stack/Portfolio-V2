@@ -1,10 +1,8 @@
-header{
-    background-color: white;
-}
+
 
 
 .navbar-logo{
-    color: #312F2F;
+    color:var(--WhiteColor) ;
     justify-self: start;
     cursor: pointer;
     font-size: 1.5rem;
@@ -43,10 +41,10 @@ header a {
     justify-content: space-between;
     width: 100%;
     height: 80px;
-    background-color: white;
+    background-color:var(--BlackColor);
     position: fixed;
     top: 0;
-    padding: 1.25rem;
+    padding: 1rem;
 }
 
 
@@ -56,14 +54,15 @@ header a {
 }
 
 .nav-menu .nav-item a {
-    padding: 1.25rem;
+    padding: 1rem;
     margin: 0 10px;
     transition: all 0.7s ease;
+    color:  var(--WhiteColor);
 }
 
 .nav-menu .nav-item a:hover {
-    background-color: var(--BlueColor);
-    color: var(--WhiteColor);
+   
+    color: var(--OrangeColor);
 }
 
 .hamburger {
@@ -76,7 +75,7 @@ header a {
     height: 3px;
     margin: 5px auto;
     transition: all 0.5s ease-in-out;
-    background-color: black;
+    background-color: var(--OrangeColor);
 }
 
 /* Responsive */
@@ -91,7 +90,7 @@ header a {
         text-align: center;
         transition: 0.7s;
         box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
-        background-color: var(--WhiteColor);
+        background-color: var(--BlackColor);
     }
 
     .nav-menu.active {

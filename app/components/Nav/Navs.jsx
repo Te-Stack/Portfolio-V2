@@ -10,20 +10,23 @@ const Nav = () => {
         setActive(!active);
       };
 
+      
+
     return ( 
         <header className="hero">
         <nav className="navbar">
-            <a href="/"><h1 className="navbar-logo">
-              Quincy Oghenetejiri
+            <a href="/"><h1 className="navbar-logo font-bold">
+              Q.O
             </h1></a>
             <div>
                 
                 <ul  className={`${active ? "nav-menu active" : "nav-menu"  }`}>
                         
                     <li className="nav-item"><Link href="#" className="nav-link">Home</Link></li>
-                    <li className="nav-item"><Link href="#About" className="nav-link">About</Link></li>
-                    <li className="nav-item"><Link href="#Projects" className="nav-link">Projects</Link></li>
-                    <li className="nav-item"><Link href="#Contact" className="nav-link">Contact Me</Link></li>
+                    <li className="nav-item"><Link href="#About" className="nav-link">Projects</Link></li>
+                    <li className="nav-item"><Link href="#Projects" className="nav-link">Blog</Link></li>
+                    <li className="nav-item"><Link href="#Contact" className="nav-link">About</Link></li>
+                    <li className="nav-item"><Link href="#Contact" className="nav-link btn">Contact me </Link></li>
                 </ul>
                 <div className={`${active ? "hamburger active" : "hamburger"  }`}  onClick={toggleLinks} >
                     <span className="bar"></span>

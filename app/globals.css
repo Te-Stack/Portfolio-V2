@@ -2,6 +2,22 @@
 @tailwind components;
 @tailwind utilities;
 
+:root{
+    --OrangeColor: #F15827;;
+    --WhiteColor:#FEFEFE;
+    /* --BlackColor:#312F2F; */
+    /* --BlackColor:#1A2430; */
+    --BlackColor:rgb(17, 17, 17);
+
+}
+
+.dark{
+    background-color: var(--BlackColor);
+
+}
+
+
+
 .try{
     height: 200vh;
 }
