@@ -2,6 +2,7 @@ import { Inter } from 'next/font/google'
 import './globals.css'
 import SmoothScrolling from "./components/SmoothScrolling";
 import Nav from './components/Nav/Navs';
+import Footer from './components/Footer/Footer';
 
 
 
@@ -19,6 +20,7 @@ export default function RootLayout({ children }) {
         <SmoothScrolling>
           <Nav/>
         {children}
+        <Footer/>
         </SmoothScrolling>
         </body>
     </html>
