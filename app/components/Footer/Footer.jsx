@@ -13,7 +13,7 @@ const Footer = () => {
             <div className="con">
                 <Link href="https://www.linkedin.com/in/quincy-oghenetejiri"><span><FaLinkedin /></span>Linkedin</Link>
                 <Link href="https://www.github.com/Te-Stack" target="_blank" rel="noreferrer"><FaGithubSquare /> GitHub</Link>
-                <Link href="https://www.twitter.com/Quincyoghenex" target="_blank" rel="noreferrer"><FaTwitter/> twitter</Link>
+                <Link href="https://www.twitter.com/Quincyoghenex" target="_blank" rel="noreferrer"><FaTwitter/> Twitter</Link>
                 <Link href="https://quincyoghenetejiri.hashnode.dev/" target="_blank" rel="noreferrer"> <FaHashnode/> hashnode</Link>
             </div>
             <div>
