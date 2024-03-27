@@ -13,6 +13,11 @@ footer .pane{
     font-size: 1.7rem;
 }
 
+.con{
+    display: flex;
+    flex-direction: column;
+}
+
 .footer-logo{
     justify-self: start;
     cursor: pointer;

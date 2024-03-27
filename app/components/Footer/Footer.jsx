@@ -17,10 +17,17 @@ const Footer = () => {
             </div>
             <div className="con">
                 <Link href="">Contact</Link>
-                <Link href="https://www.linkedin.com/in/quincy-oghenetejiri"><span><FaLinkedin /></span>Linkedin</Link>
-                <Link href="https://www.github.com/Te-Stack" target="_blank" rel="noreferrer"><FaGithubSquare /> GitHub</Link>
-                <Link href="https://www.twitter.com/Quincyoghenex" target="_blank" rel="noreferrer"><FaTwitter/> Twitter</Link>
-                <Link href="https://quincyoghenetejiri.hashnode.dev/" target="_blank" rel="noreferrer"> <FaHashnode/> hashnode</Link>
+                <Link href="https://www.linkedin.com/in/quincy-oghenetejiri">Linkedin</Link>
+                <Link href="https://www.github.com/Te-Stack" target="_blank" rel="noreferrer">GitHub</Link>
+                <Link href="https://www.twitter.com/Quincyoghenex" target="_blank" rel="noreferrer"> Twitter</Link>
+                <Link href="https://quincyoghenetejiri.hashnode.dev/" target="_blank" rel="noreferrer">  hashnode</Link>
+                <div className="flex">
+                <span><FaLinkedin /></span>
+                <FaGithubSquare /> 
+                <FaTwitter/>
+                <FaHashnode/>
+
+                </div>
             </div>
         </div>
     </footer>
