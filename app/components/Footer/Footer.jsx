@@ -9,15 +9,18 @@ const Footer = () => {
             <div>
                 <small>Designed and Developed By:</small>
             <h1 className="footer-logo">Quincy Oghenetejiri</h1>
+            <p>&copy; Copyright 2021, All right reserved</p>
+            </div>
+            
+            <div>
+                <p>&copy; Copyright 2021, All right reserved</p>
             </div>
             <div className="con">
+                <Link href="">Contact</Link>
                 <Link href="https://www.linkedin.com/in/quincy-oghenetejiri"><span><FaLinkedin /></span>Linkedin</Link>
                 <Link href="https://www.github.com/Te-Stack" target="_blank" rel="noreferrer"><FaGithubSquare /> GitHub</Link>
                 <Link href="https://www.twitter.com/Quincyoghenex" target="_blank" rel="noreferrer"><FaTwitter/> Twitter</Link>
                 <Link href="https://quincyoghenetejiri.hashnode.dev/" target="_blank" rel="noreferrer"> <FaHashnode/> hashnode</Link>
-            </div>
-            <div>
-                <p>&copy; Copyright 2021, All right reserved</p>
             </div>
         </div>
     </footer>
