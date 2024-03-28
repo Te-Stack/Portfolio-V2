@@ -2,6 +2,7 @@ import Link from "next/link";
 import "./footer.css"
 import { FaLinkedin, FaGithubSquare, FaTwitter,FaFreeCodeCamp  } from "react-icons/fa";
 import { FaHashnode } from "react-icons/fa6";
+
 const Footer = () => {
     return ( 
         <footer>
