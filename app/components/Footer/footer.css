@@ -1,12 +1,11 @@
 footer .pane{
     background-color: var(--BlackColor);
-    color: #FEFCFB;
-    padding-top: 5rem;
-    padding-bottom: 5rem;
+    color: var(--WhiteColor);
     display:flex;
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
+    padding: 1rem 1rem 4rem 1rem;
 }
 
 .fab{
@@ -18,11 +17,19 @@ footer .pane{
     flex-direction: column;
 }
 
-.footer-logo{
-    justify-self: start;
-    cursor: pointer;
-    font-size: 1.5rem;
-    font-family: 'Pacifico', cursive;
+.outlier:hover{
+    color:hsla(0, 0%, 100%, .37) ;
+
+}
+
+.icon{
+    color: var(--WhiteColor);
+    font-size: 1.3rem;
+}
+.icon:hover{
+    color: var(--WhiteColor);
+
+
 }
 
 footer a {
