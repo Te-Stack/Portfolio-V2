@@ -14,7 +14,11 @@ const Footer = () => {
             </div>
             
             <div>
-                <p>&copy; Copyright 2021, All right reserved</p>
+                <p><Link href="">Projects</Link></p>
+                <p><Link href="">Blog</Link></p>
+                <p><Link href="">About</Link></p>
+                
+                
             </div>
             <div className="con">
                 <Link href="">Contact</Link>
