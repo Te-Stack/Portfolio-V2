@@ -8,9 +8,10 @@ const Footer = () => {
         <footer>
         <div className="pane">
             <div>
-                <small>Designed and Developed By:</small>
-            <h1 className="footer-logo">Quincy Oghenetejiri</h1>
-            <p>&copy; Copyright 2021, All right reserved</p>
+                
+            <p>Quincy</p>
+            <p>&copy; 2024, All right reserved</p>
+            <p>Developed by Quincy</p>
             </div>
             
             <div>
@@ -22,15 +23,13 @@ const Footer = () => {
             </div>
             <div className="con">
                 <Link href="">Contact</Link>
+                <Link href="https://mailto:ukumakubequincy@gmail.com">ukumakubequincy@gmail.com</Link>
                 <Link href="https://www.linkedin.com/in/quincy-oghenetejiri">Linkedin</Link>
-                <Link href="https://www.github.com/Te-Stack" target="_blank" rel="noreferrer">GitHub</Link>
                 <Link href="https://www.twitter.com/Quincyoghenex" target="_blank" rel="noreferrer"> Twitter</Link>
-                <Link href="https://quincyoghenetejiri.hashnode.dev/" target="_blank" rel="noreferrer">  hashnode</Link>
+               
                 <div className="flex">
-                <span><FaLinkedin /></span>
-                <FaGithubSquare /> 
-                <FaTwitter/>
-                <FaHashnode/>
+               <Link href="https://www.github.com/Te-Stack"><FaGithubSquare /></Link>
+               <Link href="https://www.github.com/Te-Stack"><FaHashnode/></Link>
 
                 </div>
             </div>

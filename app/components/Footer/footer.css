@@ -27,7 +27,8 @@ footer .pane{
 
 footer a {
     text-decoration: none;
-    color: #FEFCFB;
+    /* color: var(--WhiteColor); */
+    color: hsla(0, 0%, 100%, .37);
 }
 
 footer a:hover {
