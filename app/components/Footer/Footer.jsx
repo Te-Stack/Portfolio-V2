@@ -14,17 +14,14 @@ const Footer = () => {
             
             <p className="outlier">Developed By <Link href="https://www.twitter.com/Quincyoghenex">Quincy</Link></p>
             </div>
-        
-            
-            
-            <div className="sm:pt-2/pb-2">
-                <p className="pb-2"><Link className="outlier " href="">Projects</Link></p>
-                <p className="pb-2"><Link href="" >Blog</Link></p>
-                <p><Link href="">About</Link></p>
-                
-                
-            </div>
-            <div className="flex flex-col sm:pt-2 sm:pb-2">
+
+            <div className="flex flex-row px-4">
+                <div className="px-4">
+                    <p className="pb-2"><Link className="outlier " href="">Projects</Link></p>
+                    <p className="pb-2"><Link href="" >Blog</Link></p>
+                    <p><Link href="">About</Link></p>
+                </div>
+                <div className="flex flex-col px-2">
                 <Link className="outlier pb-2" href="">Contact</Link>
                 <Link className="pb-2" href="https://mailto:ukumakubequincy@gmail.com">ukumakubequincy@gmail.com</Link>
                 <Link className="pb-2" href="https://www.linkedin.com/in/quincy-oghenetejiri">Linkedin</Link>
@@ -35,7 +32,12 @@ const Footer = () => {
                <Link className="icon" href="https://quincyoghenetejiri.hashnode.dev/"><FaHashnode/></Link>
 
                 </div>
+                </div>
+
             </div>
+            
+            
+            
     </footer>
      );
 }

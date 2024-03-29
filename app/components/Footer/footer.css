@@ -77,11 +77,11 @@ footer a:hover {
 @media screen and (max-width:480px){
     .pane{
         background-color: var(--BlackColor);
-        color: #FEFCFB;
+        color:var(--WhiteColor);
         padding: 1rem 0 2rem 0;
         display: flex;
         flex-direction: column-reverse;
-        justify-content:center;
+        justify-content:left;
         
     }
     
