@@ -8,7 +8,7 @@ const Footer = () => {
         <footer className="pane">
            
         
-            <div>
+            <div className="px-0">
             <p className="pb-2">Quincy</p>
             <p className="pb-2"><Link href="#">&copy;2024, Quincy</Link></p>
             
