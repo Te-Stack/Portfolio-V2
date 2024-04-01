@@ -19,7 +19,7 @@ const Footer = () => {
                 <div className="px-4">
                     <p className="pb-2"><Link className="outlier " href="">Projects</Link></p>
                     <p className="pb-2"><Link href="" >Blog</Link></p>
-                    <p><Link href="">About</Link></p>
+                    <p><Link href="">Abouts</Link></p>
                 </div>
                 <div className="flex flex-col px-2">
                 <Link className="outlier pb-2" href="">Contact</Link>
