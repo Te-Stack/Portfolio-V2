@@ -12,7 +12,7 @@ const Footer = () => {
             <p className="pb-2">Quincy</p>
             <p className="pb-2"><Link href="#">&copy;2024, Quincy</Link></p>
             
-            <p className="outlier">Developed By <Link href="https://www.twitter.com/Quincyoghenex">Quincys</Link></p>
+            <p className="outlier">Developed By <Link href="https://www.twitter.com/Quincyoghenex">Quincy</Link></p>
             </div>
 
             <div className="flex flex-row px-4">
