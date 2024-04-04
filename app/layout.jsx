@@ -10,7 +10,7 @@ const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
   title: 'Quincy Oghenetejiri Ukumakube',
-  description: 'Software Developer, Technical Writer, ',
+  description: 'Software Developer, Technical Writer,Documentation Writer ',
 }
 
 export default function RootLayout({ children }) {
