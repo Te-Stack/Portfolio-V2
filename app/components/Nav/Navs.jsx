@@ -13,7 +13,7 @@ const Nav = () => {
       
 
     return ( 
-        <header className="hero">
+        <header>
         <nav className="navbar">
             <a href="/"><h1 className="navbar-logo font-bold">
               Q.O
