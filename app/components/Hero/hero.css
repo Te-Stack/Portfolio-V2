@@ -1,4 +1,5 @@
 .hero{
     height: 50vh;
     color: var(--WhiteColor);
+    padding: 5rem 0 0 0 ;
 }
