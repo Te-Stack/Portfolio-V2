@@ -1,5 +1,17 @@
 .hero{
-    height: 50vh;
     color: var(--WhiteColor);
-    padding: 5rem 0 0 0 ;
+    padding: 5rem 0 2rem 0 ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1{
+    font-size: 3rem;
+    font-weight: bolder;
+}
+
+.image{
+    color: var(--WhiteColor);
 }
