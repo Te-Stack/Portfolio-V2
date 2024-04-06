@@ -13,6 +13,7 @@ const Hero = () => {
             <p><Link href="#" >Start Project request</Link></p>
             <div className="images py-4">
                 <Image className="image" src="/next.svg" width={120} height={100} />
+                <Image className="image" src="/vercel.svg" width={120} height={100} />
 
             </div>
 
