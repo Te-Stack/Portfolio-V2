@@ -19,3 +19,20 @@ h1 span{
 .image{
     color: var(--WhiteColor);
 }
+
+.icons{
+    
+    animation: myAnim 2s ease 0s infinite normal forwards;
+    
+}
+
+
+@keyframes myAnim {
+	0% {
+		background-position: 100% 50%;
+	}
+
+	100% {
+		background-position: 0% 50%;
+	}
+}
