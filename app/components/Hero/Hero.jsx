@@ -11,9 +11,12 @@ const Hero = () => {
             <h1>Get your potential clients with this template</h1>
             <p>Maximize Engagement and Boost Conversions with Custom UI/UX Design Solutions</p>
             <p><Link href="#" >Start Project request</Link></p>
-            <div className="images py-4">
-                <Image className="image" src="/next.svg" width={120} height={100} />
-                <Image className="image" src="/vercel.svg" width={120} height={100} />
+            <div className="images flex py-4">
+                <Image className="image px-2" src="/next.svg" width={120} height={100} />
+                <Image className="image px-2" src="/vercel.svg" width={120} height={100} />
+                <Image className="image px-2" src="/react.svg" width={120} height={100} />
+                <Image className="image px-2" src="/express.svg" width={120} height={100} />
+                <Image className="image px-2" src="/vue.svg" width={120} height={100} />
 
             </div>
 
