@@ -20,13 +20,6 @@ h1 span{
     color: var(--WhiteColor);
 }
 
-.icons{
-    
-    animation: myAnim 2s ease 0s infinite normal forwards;
-    
-}
-
-
 @keyframes slide {
     from {
       transform: translateX(0);
@@ -35,3 +28,50 @@ h1 span{
       transform: translateX(-100%);
     }
   }
+
+
+.logos {
+    overflow: hidden;
+    padding: 60px 0;
+    background: var(--BlackColor);
+    white-space: nowrap;
+    position: relative;
+  }
+  
+  .logos:before,
+  .logos:after {
+    position: absolute;
+    top: 0;
+    width: 250px;
+    height: 100%;
+    content: "";
+    z-index: 2;
+  }
+  
+  .logos:before {
+    left: 0;
+    background: linear-gradient(to left, rgba(255, 255, 255, 0), var(--BlackColor));
+  }
+  
+  .logos:after {
+    right: 0;
+    background: linear-gradient(to right, rgba(255, 255, 255, 0), var(--BlackColor));
+  } 
+  
+
+
+
+  .logos:hover .logos-slide {
+  animation-play-state: paused;
+}
+
+.logos-slide {
+  display: inline-flex;
+  animation: 35s slide infinite linear;
+}
+
+/* .logos-slide image {
+  height: 50px;
+  margin: 0 40px;
+} */
+
