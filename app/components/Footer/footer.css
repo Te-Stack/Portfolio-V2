@@ -39,7 +39,7 @@
 footer a {
     text-decoration: none;
     /* color: var(--WhiteColor); */
-    color: hsla(0, 0%, 100%, .37);
+    color: #ffffff5e;
 }
 
 footer a:hover {

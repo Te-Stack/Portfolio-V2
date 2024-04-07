@@ -8,8 +8,12 @@
 }
 
 h1{
-    font-size: 3rem;
+    font-size: 3.4rem;
     font-weight: bolder;
+}
+
+h1 span{
+    opacity: 78%;
 }
 
 .image{
