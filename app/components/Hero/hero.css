@@ -5,6 +5,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    overflow: hidden;
 }
 
 h1{
@@ -31,7 +32,8 @@ h1 span{
 
 
 .logos {
-    overflow: hidden;
+    overflow-y: hidden;
+    overflow-x: hidden;
     padding: 60px 0;
     background: var(--BlackColor);
     white-space: nowrap;
@@ -62,13 +64,53 @@ h1 span{
 
 
   .logos:hover .logos-slide {
-  animation-play-state: paused;
+  /* animation-play-state:none; */
 }
 
 .logos-slide {
   display: inline-flex;
-  animation: 35s slide infinite linear;
+  animation: 15s slide infinite linear;
+  overflow: hidden;
 }
+/* @media screen and (max-width:468px) {
+  .logos {
+    overflow-x: hidden;
+    padding: 60px 0;
+    background: var(--BlackColor);
+    white-space: nowrap;
+    position: relative;
+  }
+  
+  .logos:before,
+  .logos:after {
+    position: absolute;
+    top: 0;
+    width: 100px;
+    height: 100%;
+    content: "";
+    z-index: 2;
+  }
+  
+  .logos:before {
+    left: 0;
+    background: linear-gradient(to left, rgba(255, 255, 255, 0), var(--BlackColor));
+  }
+  
+  .logos:after {
+    right: 0;
+    background: linear-gradient(to right, rgba(255, 255, 255, 0), var(--BlackColor));
+  } 
+  
+
+
+
+  .logos-slide {
+    display: inline-flex;
+    animation: 15s slide infinite linear;
+  }
+
+  
+} */
 
 /* .logos-slide image {
   height: 50px;
