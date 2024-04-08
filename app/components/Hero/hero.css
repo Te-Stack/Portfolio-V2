@@ -11,10 +11,14 @@
 h1{
     font-size: 3.4rem;
     font-weight: bolder;
+    
 }
 
 h1 span{
     /* opacity: 78%; */
+    background: -webkit-linear-gradient(#eee, #333);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .image{
@@ -80,7 +84,9 @@ h1 span{
 }
 
 h1 span{
-    /* opacity: 50%; */
+  background: -webkit-linear-gradient(#eee, #333);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
   
