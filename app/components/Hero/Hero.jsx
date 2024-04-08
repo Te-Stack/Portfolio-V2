@@ -8,7 +8,8 @@ const Hero = () => {
     return ( 
         <div className="hero" >
             <p>Framer Partner</p>
-            <h1>Get your <span>potential clients</span>  <br/> <span>with this template</span></h1>
+            <h1 className="hidden md:block">Get your <span>potential clients</span>  <br/> <span>with this template</span></h1>
+            <h1 className="block md:hidden">Get your <span>potential clients</span>  <br/> <span>with this template</span></h1>
             <p>Maximize Engagement and Boost Conversions with Custom UI/UX Design Solutions</p>
             <p><Link href="#" >Start Project request</Link></p>
             <div className="logos py-4">
