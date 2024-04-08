@@ -14,7 +14,7 @@ h1{
 }
 
 h1 span{
-    opacity: 78%;
+    /* opacity: 78%; */
 }
 
 .image{
@@ -72,48 +72,16 @@ h1 span{
   animation: 15s slide infinite linear;
   overflow: hidden;
 }
-/* @media screen and (max-width:468px) {
-  .logos {
-    overflow-x: hidden;
-    padding: 60px 0;
-    background: var(--BlackColor);
-    white-space: nowrap;
-    position: relative;
-  }
-  
-  .logos:before,
-  .logos:after {
-    position: absolute;
-    top: 0;
-    width: 100px;
-    height: 100%;
-    content: "";
-    z-index: 2;
-  }
-  
-  .logos:before {
-    left: 0;
-    background: linear-gradient(to left, rgba(255, 255, 255, 0), var(--BlackColor));
-  }
-  
-  .logos:after {
-    right: 0;
-    background: linear-gradient(to right, rgba(255, 255, 255, 0), var(--BlackColor));
-  } 
-  
 
+@media screen and (max-width:465px) {
+  h1{
+    font-size: 2.4rem;
+    font-weight: bold;
+}
 
-
-  .logos-slide {
-    display: inline-flex;
-    animation: 15s slide infinite linear;
-  }
+h1 span{
+    /* opacity: 50%; */
+}
 
   
-} */
-
-/* .logos-slide image {
-  height: 50px;
-  margin: 0 40px;
-} */
-
+}
