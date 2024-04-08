@@ -7,7 +7,7 @@ import Image from "next/image";
 const Hero = () => {
     return ( 
         <div className="hero" >
-            <p>Framer Partner</p>
+            <small>Framer Partner</small>
             <h1 className="hidden md:block">Get your <span>potential clients</span>  <br/> <span className="pl-8">   with this template</span></h1>
             <h1 className="block md:hidden">Get your <span>potential <br/>  clients</span>  <span>with this template</span></h1>
             <p>Maximize Engagement and Boost Conversions with Custom UI/UX Design Solutions</p>

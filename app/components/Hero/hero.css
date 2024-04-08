@@ -14,6 +14,21 @@ h1{
     
 }
 
+small{
+  color:var(--WhiteColor);
+
+}
+
+p{
+  color: #ffffff5e;
+}
+
+a{
+    color: var(--OrangeColor);
+    
+}
+
+
 h1 span{
     /* opacity: 78%; */
     background: -webkit-linear-gradient(#eee, #333);
@@ -78,6 +93,15 @@ h1 span{
 }
 
 @media screen and (max-width:465px) {
+  .hero{
+    color: var(--WhiteColor);
+    padding: 5rem 1rem 2rem 1rem ;
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
   h1{
     font-size: 2.4rem;
     font-weight: bold;
