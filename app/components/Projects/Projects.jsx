@@ -1,7 +1,11 @@
-const Project = () => {
+import Image from "next/image";
+
+
+const Project = ({img}) => {
     return ( 
-        <div>
-            HP
+        <div className="">
+            <Image src={img} width={120} height={100} />
+            
         </div>
      );
 }
