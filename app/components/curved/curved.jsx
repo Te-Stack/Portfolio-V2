@@ -41,25 +41,7 @@ export default function Curved() {
       svgProps={{ className: 'rotating-curved-text' }}
     />
   );
-  const currentJsx2 = (
-    <ReactCurvedText
-      width={width}
-      height={height}
-      cx={cx}
-      cy={cy}
-      rx={rx}
-      ry={ry}
-      startOffset={startOffset}
-      reversed={reversed}
-      text={text}
-      textProps={textProps}
-      textPathProps={textPathProps}
-      tspanProps={tspanProps}
-      ellipseProps={ellipseProps}
-      svgProps={{ className: 'rotating-curved-text' }}
-    />
-  );
-
+  
   let currentJsxString = jsxToString(currentJsx, {
     displayName: 'ReactCurvedText',
     useFunctionCode: true,
