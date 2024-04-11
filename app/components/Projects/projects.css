@@ -1,6 +1,6 @@
 .example {
     position: relative;
-    padding: 0;
+    padding: 1rem 4rem;
     /* width: 30rem; */
     display: block;
     cursor: pointer;
