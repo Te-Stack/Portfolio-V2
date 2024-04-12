@@ -6,6 +6,10 @@
     cursor: pointer;
     overflow: hidden;
   }
+
+.example img:hover{
+    background-color: red;
+}
   
   .content {
     opacity: 0;
@@ -16,8 +20,8 @@
     padding: 1rem 2rem;
     /* color: #1c87c9; */
     background-color: rgba(200, 200, 200, 0.5);
-    width: 1100px;
-    height: 800px;
+    width: 1150px;
+    height: 525px;
     -webkit-transition: all 400ms ease-out;
     -moz-transition: all 400ms ease-out;
     -o-transition: all 400ms ease-out;

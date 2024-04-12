@@ -11,11 +11,13 @@ const Project = ({img}) => {
             <div class="content">
                 <div className="text">
                     <Curved/>
-                
-
                 </div>
                 
                 
+            </div>
+            <div>
+                <h1>Beyond</h1>
+                <p>Logo Design. Packaging. website</p>
             </div>
             
         </div>
