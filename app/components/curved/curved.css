@@ -33,14 +33,13 @@
   }
   
   .exampleWrapperDiv {
-    /* border: 8px solid;
-    border-image: linear-gradient(45deg, turquoise, greenyellow) 1; */
+    
     width: fit-content;
     height: fit-content;
     margin: auto;
     position: relative;
-    /* top: 0; */
-    bottom: 7rem;
+    top: 6rem;
+    /* bottom: 7rem; */
     color: var(--WhiteColor);
 
   }

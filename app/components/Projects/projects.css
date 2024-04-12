@@ -26,39 +26,40 @@
     text-align: center;
   }
   
-  .example .content:hover {
+  .example .content:hover  {
     opacity: 0.5;
   }
   
   .example .content .text {
     height: 0;
     opacity: 1;
-    transition-delay: 0s;
-    transition-duration: 0.4s;
+    
   }
   
   .example .content:hover .text {
     opacity: 1;
-    transform: translateY(250px);
-    -webkit-transform: translateY(250px);
+    
   }
 
   .details h2{
+    padding: 1rem o;
     font-weight: 500;
-    font-size: 1.5rem;
+    font-size: 2rem;
     
     
   }
 
   .details {
-    width: 500px;
+    transition: all 400ms ease-out;
     color: var(--WhiteColor);
   }
-  
-  .details:hover{
-    padding-left: 4rem;
 
 
-  } 
 
-  
+
+
+.example:hover .details{
+    padding-left: 3rem;
+    
+
+  }

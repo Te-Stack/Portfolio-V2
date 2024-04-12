@@ -3,15 +3,18 @@ import Image from "next/image";
 import "./projects.css"
 import ReactCurvedText from "react-curved-text";
 import Curved from "../curved/curved";
+import Link from "next/link";
+
+
 
 const Project = ({img}) => {
     return ( 
-        <div className="example">
+        <div className="example py-12">
             <Image src={img} width={1200} height={1000} />
             <div class="content">
-                <div className="text">
+                <Link href="#" className="text">
                     <Curved/>
-                </div>
+                </Link>
                 
             </div>
             <div className="details">
