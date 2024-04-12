@@ -13,12 +13,13 @@ const Project = ({img}) => {
                     <Curved/>
                 </div>
                 
+            </div>
+            <div className="details">
+                <h2>Beyond</h2>
+                <p>Logo Design. Packaging. website</p>
                 
             </div>
-            <div>
-                <h1>Beyond</h1>
-                <p>Logo Design. Packaging. website</p>
-            </div>
+            
             
         </div>
      );

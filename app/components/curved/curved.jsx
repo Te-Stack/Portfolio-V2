@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import jsxToString from 'jsx-to-string';
 import ReactCurvedText from 'react-curved-text';
+import { FaStar } from "react-icons/fa6";
 import './curved.css';
 
 export default function Curved() {
@@ -8,17 +9,17 @@ export default function Curved() {
   const [height, setHeight] = useState(300);
   const [cx, setCx] = useState(150);
   const [cy, setCy] = useState(150);
-  const [rx, setRx] = useState(100);
-  const [ry, setRy] = useState(100);
+  const [rx, setRx] = useState(55);
+  const [ry, setRy] = useState(55);
   const [startOffset, setStartOffset] = useState(0);
   const [reversed, setReversed] = useState(false);
-  const [text, setText] = useState('view project details   -   view project details');
+  const [text, setText] = useState(`- VIEW PROJECT DETAIL - VIEW PROJECT DETAIL`);
   const [fontSize, setFontSize] = useState(24);
-  const [textPathFill, setTextPathFill] = useState();
+  const [textPathFill, setTextPathFill] = useState("#fff");
   const [dy, setDy] = useState(0);
   const [fill, setFill] = useState();
 
-  const textProps = fontSize ? { style: { fontSize: fontSize } } : null;
+  const textProps = fontSize ? { style: { fontSize: 15 } } : null;
   const textPathProps = textPathFill ? { fill: textPathFill } : null;
   const tspanProps = dy ? { dy: dy } : null;
   const ellipseProps = fill ? { style: `fill: ${fill}` } : null;

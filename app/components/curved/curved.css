@@ -7,6 +7,7 @@
     float: right;
     margin-right: 80px;
     background-color: white;
+
   }
   
   .logo-div {
@@ -40,6 +41,8 @@
     position: relative;
     /* top: 0; */
     bottom: 7rem;
+    color: var(--WhiteColor);
+
   }
   
   .settingsDiv {
@@ -90,6 +93,8 @@
     margin-top: 50px;
     max-width: 500px;
     margin: auto;
+    color: var(--WhiteColor);
+
   }
   
   .currentJsxDiv span {
@@ -147,7 +152,7 @@
   .rotating-curved-text {
     -webkit-animation: spin 4s linear infinite;
     -moz-animation: spin 4s linear infinite;
-    animation: spin 4s linear infinite;
+    animation: spin 10s linear infinite;
   }
   @-moz-keyframes spin {
     100% {
