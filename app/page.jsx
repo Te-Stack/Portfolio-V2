@@ -8,8 +8,9 @@ export default function Home() {
   return (
     <main >
         <Hero/>
-        <Project img="/Project-pics-1.png"  />
-        <Project img="/Project-pics-2.png"  />
+        <Project img="/Project-pics-1.png" h2="S.T.O.R.E" p="E.Commerce Website" />
+        <Project img="/Project-pics-2.png" h2="Student's Finance Club" p="Organisational Website "  />
+        <Project img="/React-Native-1.png" h2="Job Application App" p="Mobile Application "  />
       
     </main>
   )

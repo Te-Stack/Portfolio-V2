@@ -7,10 +7,10 @@ import Link from "next/link";
 
 
 
-const Project = ({img}) => {
+const Project = ({img, h2, p}) => {
     return ( 
         <div className="example py-12">
-            <Image src={img} width={1200} height={1000} />
+            <Image src={img} width={1200} height={500} />
             <div class="content">
                 <Link href="#" className="text">
                     <Curved/>
@@ -18,8 +18,8 @@ const Project = ({img}) => {
                 
             </div>
             <div className="details">
-                <h2>Beyond</h2>
-                <p>Logo Design. Packaging. website</p>
+                <h2>{h2}</h2>
+                <p>{p}</p>
                 
             </div>
             
