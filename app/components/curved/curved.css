@@ -170,3 +170,18 @@
     }
   }
   
+
+  @media screen and (max-width:468px){
+    .exampleWrapperDiv {
+    
+      width: fit-content;
+      height: fit-content;
+      margin: auto;
+      position: relative;
+      top: -5rem;
+      bottom: 2rem;
+      color: var(--WhiteColor);
+  
+    }
+
+  }
