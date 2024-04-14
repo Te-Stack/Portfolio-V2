@@ -1,4 +1,4 @@
-"use client"
+// "use client"
 import Image from "next/image";
 import "./projects.css"
 import ReactCurvedText from "react-curved-text";
@@ -12,7 +12,7 @@ const Project = ({img, h2, p}) => {
     return ( 
         <div className="example py-12">
             <Image src={img} width={1200} height={500} />
-            <div class="content ">
+            <div className="content ">
                 <Link href="#" className="text">
                     <Curved/>
                 </Link>

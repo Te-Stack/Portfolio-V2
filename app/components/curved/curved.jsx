@@ -1,3 +1,4 @@
+"use client"
 import React, { useState } from 'react';
 import jsxToString from 'jsx-to-string';
 import ReactCurvedText from 'react-curved-text';

@@ -1,4 +1,4 @@
-import "./why.css"
+import "./Why.css"
 const Why = () => {
     return ( 
         <div className="flex justify-between why">

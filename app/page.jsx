@@ -2,6 +2,9 @@ import Image from 'next/image'
 import Hero from './components/Hero/Hero'
 import Project from './components/Projects/Projects'
 import Why from './components/why/Why'
+import project1 from "../public/Project-pics-1.png"
+import project2 from "../public/Project-pics-2.png"
+import project3 from "../public/React-Native-1.png"
 
 
 
@@ -10,9 +13,9 @@ export default function Home() {
   return (
     <main >
         <Hero/>
-        <Project img="/Project-pics-1.png" h2="S.T.O.R.E" p="E.Commerce Website" />
-        <Project img="/Project-pics-2.png" h2="Student's Finance Club" p="Organisational Website "  />
-        {/* <Project className="contentLong" img="/React-Native-1.png" h2="Job Application App" p="Mobile Application "  /> */}
+        <Project img={project1} h2="S.T.O.R.E" p="E.Commerce Website" />
+        <Project img={project2} h2="Student's Finance Club" p="Organisational Website "  />
+        <Project  img={project3} h2="Job Application App" p="Mobile Application "  />
         <Why/>
       
     </main>
