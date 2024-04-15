@@ -1,7 +1,8 @@
 import "./Why.css"
+import Scroll from "../parralax/Parallax";
 const Why = () => {
     return ( 
-        <div className="flex justify-between why">
+        <div className=" justify-between why">
             <div>
                 <h2>Why Choose us for your design and development needs?</h2>
                 
@@ -28,6 +29,7 @@ const Why = () => {
                     <h3>Commitment</h3>
                     <p>At [Company Name], we are committed to delivering measurable and impactful results for our clients, helping them achieve their business objectives and exceed their expectations.</p>
                 </div>
+
                 
             
 
@@ -35,8 +37,10 @@ const Why = () => {
 
 
             </div>
+            <Scroll/>
 
         </div>
+        
      );
 }
  
