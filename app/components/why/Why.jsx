@@ -1,5 +1,4 @@
 import "./Why.css"
-import Scroll from "../parralax/Parallax";
 const Why = () => {
     return ( 
         <div className=" justify-between why">
@@ -37,7 +36,7 @@ const Why = () => {
 
 
             </div>
-            <Scroll/>
+            
 
         </div>
         
