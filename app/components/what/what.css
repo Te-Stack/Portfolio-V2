@@ -1,0 +1,12 @@
+.what{
+    color: var(--WhiteColor);
+    padding: 5rem 15rem 2rem 15rem ;
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.what h2{
+    font-size: 2.6rem;
+}

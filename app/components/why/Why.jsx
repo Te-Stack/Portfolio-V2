@@ -1,7 +1,7 @@
 import "./Why.css"
 const Why = () => {
     return ( 
-        <div className=" justify-between why">
+        <div className="flex justify-between why">
             <div>
                 <h2>Why Choose us for your design and development needs?</h2>
                 
