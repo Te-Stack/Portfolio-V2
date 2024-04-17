@@ -8,4 +8,9 @@
     font-weight: 300;
     font-size: 2rem;
     color: var(--WhiteColor);
+
+}
+
+.left{
+    padding: 2rem 4rem;
 }

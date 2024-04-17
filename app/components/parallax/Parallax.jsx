@@ -17,7 +17,7 @@ const MyComponent = () => {
       animation: gsap.timeline({ paused: true }).fromTo(
         colLeftRef.current,
         { y: 0 },
-        { y: '70vh', duration: 1.5, ease: 'none' },
+        { y: '127vh', duration: 1.5, ease: 'none' },
         0
       ),
       trigger: sectionRef.current,
@@ -52,22 +52,22 @@ const MyComponent = () => {
         {/* Your content here */}
       </div>
       <div className="col_left">
-      <div>
+      <div className='left'>
                     <p>01</p>
                     <h3>Experience</h3>
                     <p>Why Choose with years of experience working with businesses of all sizes, our team knows what it takes to deliver exceptional results. Portfolio for Your Design and Development Needs?</p>
                 </div>
-                <div>
+                <div className='left'>
                     <p>02</p>
                     <h3>Expertise</h3>
                     <p>We are constantly staying up-to-date with the latest trends and technologies to ensure that our clients receive the most effective and innovative solutions.</p>
                 </div>
-                <div>
+                <div className='left'>
                     <p>03</p>
                     <h3>Dedication</h3>
                     <p>Our team is dedicated to providing personalized and attentive service to each and every one of our clients, ensuring that their needs and goals are always top priorities.</p>
                 </div>
-                <div>
+                <div className='left'>
                     <p>04</p>
                     <h3>Commitment</h3>
                     <p>At [Company Name], we are committed to delivering measurable and impactful results for our clients, helping them achieve their business objectives and exceed their expectations.</p>
