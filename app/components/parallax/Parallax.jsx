@@ -48,8 +48,7 @@ const MyComponent = () => {
  return (
     <div className="flex flex-col md:flex-row justify-between why" ref={sectionRef}>
       <div id="vertical"  ref={colLeftRef}>
-        <h2>Why Choose us for your design and development needs?</h2>
-        {/* Your content here */}
+        <h2>Why choose us for your design and development needs?</h2>
       </div>
       <div className="col_left" id="vertical">
       <div className='left'>
@@ -75,8 +74,7 @@ const MyComponent = () => {
         {/* Your content here */}
       </div>
       <div id="mobile">
-        <h2>Why Choose us for your design and development needs?</h2>
-        {/* Your content here */}
+        <h2>Why choose us for your design and development needs?</h2>
       </div>
       <div className="col_left" id="mobile">
       <div className='left'>

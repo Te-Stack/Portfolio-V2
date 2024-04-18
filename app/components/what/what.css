@@ -10,3 +10,19 @@
 .what h2{
     font-size: 2.6rem;
 }
+
+@media screen and (max-width:468px) {
+    .what{
+        color: var(--WhiteColor);
+        padding: 5rem 1rem 1rem 1rem ;
+        display: flex; 
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .what h2{
+        font-size: 1.6rem;
+    }
+
+}
