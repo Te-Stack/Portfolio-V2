@@ -7,6 +7,7 @@ import project2 from "../public/Project-pics-2.png"
 import project3 from "../public/React-Native-1.png"
 import What from './components/what/What'
 import MyComponent from './components/parallax/Parallax'
+import Blog from './components/blog/blog'
 
 
 
@@ -21,6 +22,9 @@ export default function Home() {
         <MyComponent/>
         {/* <Why/> */}
         <What/>
+        <Blog/>
+
+        
         
       
     </main>

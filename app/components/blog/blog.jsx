@@ -1,20 +1,39 @@
+import Link from "next/link";
 import "./blog.css"
+import Image from "next/image";
+
 const Blog = () => {
     return ( 
-        <div className="flex ">
-            <h1>Blog</h1>
-            <div className="blog">
-                <h1></h1>
-
+        <div className="blogs">
+            <h1 className="text-white text-center" >Blog</h1>
+            <div className="flex justify-evenly">
+                <div className="blog">
+                    <Link href="https://adamtheautomator.com/github-actions-matrix/" target="__blank">
+                        <Image src="/GitHub Actions.webp" width={450} height={270} />
+                        <small>by Quincy Oghenetejiri</small>
+                        <h3>How to Use the GitHub Actions Matrix Strategy in Deployments</h3>
+                    </Link>
+                </div>
+                <div className="blog">
+                    <Link href="https://www.freecodecamp.org/news/app-directory-nextjs/">
+                        <Image src="/Freecodecamp Banner 2.png" width={450} height={270} />
+                        <small>by Quincy Oghenetejiri</small>
+                        <h3>How to Use the App Directory in Next.js</h3>
+                </Link>
+                </div>
+                <div className="blog">
+                    <Link href="https://www.freecodecamp.org/news/use-redux-toolkit-to-manage-state-in-react-apps/">
+                    
+                    <Image src="/Freecodecamp Banner.png" width={450} height={270} />
+                    <small>by Quincy Oghenetejiri</small>
+                    <h3>How to Use Redux Toolkit to Manage State in Your React Application</h3>
+                </Link>
+                </div>
 
             </div>
-            <div className="blog">
-            <h1></h1>
-
-            </div>
-            <div className="blog">
-
-            </div>
+            
+            
+            
             
         </div>
      );
