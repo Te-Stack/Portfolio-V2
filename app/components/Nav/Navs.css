@@ -78,6 +78,11 @@ header a {
     background-color: var(--OrangeColor);
 }
 
+.btn{
+    border: var(--OrangeColor);
+    border-radius: 5px;
+}
+
 /* Responsive */
 @media only screen and (max-width: 768px) {
     .nav-menu {

@@ -22,11 +22,11 @@ const Nav = () => {
                 
                 <ul  className={`${active ? "nav-menu active" : "nav-menu"  }`}>
                         
-                    <li className="nav-item"><Link href="#" className="nav-link">Home</Link></li>
-                    <li className="nav-item"><Link href="#About" className="nav-link">Projects</Link></li>
+                    <li className="nav-item"><Link href="/" className="nav-link">Home</Link></li>
+                    <li className="nav-item"><Link href="#" className="nav-link">Projects</Link></li>
                     <li className="nav-item"><Link href="#Projects" className="nav-link">Blog</Link></li>
-                    <li className="nav-item"><Link href="#Contact" className="nav-link">About</Link></li>
-                    <li className="nav-item"><Link href="#Contact" className="nav-link btn">Contact me </Link></li>
+                    <li className="nav-item"><Link href="/about" className="nav-link">About</Link></li>
+                    <li className="nav-item"><button className="btn"><Link href="#">Contact me </Link> </button></li>
                 </ul>
                 <div className={`${active ? "hamburger active" : "hamburger"  }`}  onClick={toggleLinks} >
                     <span className="bar"></span>
