@@ -1,0 +1,33 @@
+.dream{
+    color: var(--WhiteColor);
+    padding: 5rem 0 2rem 0 ;
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.dream h3{
+    font-size: 2.7rem;
+    font-weight: 500;
+}
+
+small{
+    color:var(--WhiteColor);
+  
+}
+
+p{
+    color: #ffffff5e;
+}
+
+a{
+    color: var(--OrangeColor);
+    
+}
+
+a:hover{
+    color: var(--WhiteColor);
+    transition: 60ms;
+}
+  

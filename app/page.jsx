@@ -8,7 +8,7 @@ import project3 from "../public/React-Native-1.png"
 import What from './components/what/What'
 import MyComponent from './components/parallax/Parallax'
 import Blog from './components/blog/blog'
-
+import Dream from './components/dream/Dream'
 
 
 
@@ -23,6 +23,7 @@ export default function Home() {
         {/* <Why/> */}
         <What/>
         <Blog/>
+        <Dream/>
 
         
         
