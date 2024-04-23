@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@studio-freight/react-lenis": "^0.0.46",
+    "framer-motion": "^11.1.7",
     "gsap": "^3.12.5",
     "jsx-to-string": "^1.4.0",
     "next": "14.0.2",
@@ -17,7 +18,8 @@
     "react": "^18",
     "react-curved-text": "^3.0.1",
     "react-dom": "^18",
-    "react-icons": "^5.0.1"
+    "react-icons": "^5.0.1",
+    "react-intersection-observer": "^9.8.2"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.19",
