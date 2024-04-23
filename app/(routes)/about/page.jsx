@@ -1,15 +1,15 @@
 
-
-
-import Experience from '@/app/components/experience/experience'
+import Experience from '../../components/experience/experience'
 import Dream from '../../components/dream/Dream'
-// import ProgressBar from '@/app/components/progressbar/ProgressBar'
+import Aboutme from '@/app/components/about/about'
 
 
 
-export default function Home() {
+
+export default function About() {
   return (
     <main >
+      <Aboutme/>
         <Experience/>
         {/* <ProgressBar/> */}
         
