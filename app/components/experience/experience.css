@@ -1,0 +1,19 @@
+.App {
+    font-family: sans-serif;
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .progress-bar {
+    position: fixed;
+    top: 0;
+    left: 4rem;
+    right: 0;
+    height: 10px;
+    background: var(--OrangeColor);
+    transform-origin: 0%;
+    /* transform: rotate(180deg); */
+    transform: rotate(270deg);
+  }
+  
