@@ -7,7 +7,7 @@ const Aboutme = () => {
             <h1>My name is Quincy Oghenetejiri , I am a Software Developer and Technical Writer</h1>
             <div className="flex">
                 <div>
-                    <Image src="/vercel.svg" width={550} height={350} />
+                    <Image src="/Author Pics (1).jpg" width={550} height={350} />
                 </div>
                 <div>
                 
