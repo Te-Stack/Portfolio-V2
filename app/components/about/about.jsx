@@ -11,7 +11,7 @@ const Aboutme = () => {
                 </div>
                 <div>
                 
-                <p>I'm a software engineer focused on solving problems using frontend technology. I am interested in user experience, accessibility, design engineering, gaming, web3, web animations, cloud engineering and golang.</p>
+                <p>I'm a software engineer focused on solving problems using frontend technology. with 3 years experience I am interested in user experience, accessibility, design engineering, gaming, web3, web animations, cloud engineering and golang.</p>
 
                 </div>
             
