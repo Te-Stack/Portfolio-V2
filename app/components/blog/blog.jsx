@@ -18,7 +18,7 @@ const Blog = () => {
                     <Link href="https://www.freecodecamp.org/news/app-directory-nextjs/">
                         <Image src="/Freecodecamp Banner 2.png" width={450} height={270} />
                         <small>by Quincy Oghenetejiri</small>
-                        <h3>How to Use the App Directory in Next.js</h3>
+                        <h3>How to Use the App Directory in Next.js.</h3>
                 </Link>
                 </div>
                 <div className="blog">
