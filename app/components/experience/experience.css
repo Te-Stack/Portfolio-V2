@@ -1,9 +1,10 @@
 .experience{
   color: var(--WhiteColor);
+  padding: 7rem 3rem;
 }
 
 .experience h1{
-  font-size: 1.5rem;
+  font-size: 3.5rem;
   font-weight: 500;
 
 }
