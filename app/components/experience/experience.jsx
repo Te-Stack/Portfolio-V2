@@ -17,16 +17,21 @@ const Experience = () => {
 
           <div className="cv">
             <h3>Software Developer/Technical Writer -- Freelancing Remote </h3>
-            <small>April 2023 - Present </small>
+            <small>APRIL 2023 - PRESENT </small>
 
+            <div className="cvdetails">
             <p>Key Accomplishments:</p>
                   
-            <p><li>Wrote technical articles that surpassed over 10K views on platforms in turns increasing the usage of their
-            product.</li></p>
-            <p><li>Applied software engineering principles such as DRY, SOLID and KISS when building web and mobile application
-            for clients.</li></p>
-            <p><li>Search Engine Optimization (SEO) and Performance are taken into considerations when building software
-            products for clients by picking the right tool.</li></p>
+                  <p><li>Wrote technical articles that surpassed over 10K views on platforms in turns increasing the usage of their
+                  product.</li></p>
+                  <p><li>Applied software engineering principles such as DRY, SOLID and KISS when building web and mobile application
+                  for clients.</li></p>
+                  <p><li>Search Engine Optimization (SEO) and Performance are taken into considerations when building software
+                  products for clients by picking the right tool.</li></p>
+
+            </div>
+
+            
             
           </div>
         </div>
