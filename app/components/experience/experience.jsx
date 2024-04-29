@@ -20,7 +20,7 @@ const Experience = () => {
             <small>APRIL 2023 - PRESENT </small>
 
             <div className="cvdetails">
-            <p>Key Accomplishments:</p>
+            <p className="pb-4">Key Accomplishments:</p>
                   
                   <p><li>Wrote technical articles that surpassed over 10K views on platforms in turns increasing the usage of their
                   product.</li></p>
