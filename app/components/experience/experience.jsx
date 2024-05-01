@@ -13,7 +13,7 @@ const Experience = () => {
     return ( 
         <div className="experience">
           <h1>Experience</h1>
-          <p><Link href="https://drive.google.com/file/d/1gFqYISHgQNsjYmmYYlxvR0WQbMpyw311/view?usp=drive_link" target="__blank" >Download Resume</Link></p>
+          <p><Link href="https://drive.google.com/file/d/1gFqYISHgQNsjYmmYYlxvR0WQbMpyw311/view?usp=drive_link" target="__blank" >Download Resumes</Link></p>
 
           <div className="cv">
             <h3>Freelancing Software Developer/Technical Writer - Remote </h3>
