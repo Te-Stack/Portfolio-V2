@@ -8,14 +8,39 @@ const Blogs = () => {
             <h1 className="text-white text-center" >Blogs</h1>
             <div className="flex justify-evenly">
                 <div className="blog">
-                    <Link href="https://adamtheautomator.com/github-actions-matrix/" target="__blank">
+                    <Link href="https://adamtheautomator.com/github-actions-matrix/" target="_blank">
                         <Image src="/GitHub Actions.webp" width={450} height={270} />
                         <small>by Quincy Oghenetejiri</small>
                         <h3>How to Use the GitHub Actions Matrix Strategy in Deployments</h3>
                     </Link>
                 </div>
                 <div className="blog">
-                    <Link href="https://www.freecodecamp.org/news/app-directory-nextjs/">
+                    <Link href="https://www.freecodecamp.org/news/app-directory-nextjs/" target="_blank">
+                        <Image src="/Freecodecamp Banner 2.png" width={450} height={270} />
+                        <small>by Quincy Oghenetejiri</small>
+                        <h3>How to Use the App Directory in Next.js.</h3>
+                </Link>
+                </div>
+                <div className="blog">
+                    <Link href="https://www.freecodecamp.org/news/use-redux-toolkit-to-manage-state-in-react-apps/">
+                    
+                    <Image src="/Freecodecamp Banner.png" width={450} height={270} />
+                    <small>by Quincy Oghenetejiri</small>
+                    <h3>How to Use Redux Toolkit to Manage State in Your React Application</h3>
+                </Link>
+                </div>
+
+            </div>
+            <div className="flex justify-evenly">
+                <div className="blog">
+                    <Link href="https://adamtheautomator.com/github-actions-matrix/" target="_blank">
+                        <Image src="/GitHub Actions.webp" width={450} height={270} />
+                        <small>by Quincy Oghenetejiri</small>
+                        <h3>How to Use the GitHub Actions Matrix Strategy in Deployments</h3>
+                    </Link>
+                </div>
+                <div className="blog">
+                    <Link href="https://www.freecodecamp.org/news/app-directory-nextjs/" target="_blank">
                         <Image src="/Freecodecamp Banner 2.png" width={450} height={270} />
                         <small>by Quincy Oghenetejiri</small>
                         <h3>How to Use the App Directory in Next.js.</h3>
