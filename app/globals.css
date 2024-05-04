@@ -18,7 +18,19 @@
 
 
 
+.projectpage{
+    height: 70vh;
+    color: var(--WhiteColor);
+    padding: 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
+}
+
+.projectpage h1{
+    font-size: 3.5rem;
+}
 
 
 

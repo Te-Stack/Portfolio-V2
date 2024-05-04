@@ -23,8 +23,8 @@ const Nav = () => {
                 <ul  className={`${active ? "nav-menu active" : "nav-menu"  }`}>
                         
                     <li className="nav-item"><Link href="/" className="nav-link">Home</Link></li>
-                    <li className="nav-item"><Link href="#" className="nav-link">Projects</Link></li>
-                    <li className="nav-item"><Link href="#Projects" className="nav-link">Blog</Link></li>
+                    <li className="nav-item"><Link href="/project" className="nav-link">Projects</Link></li>
+                    <li className="nav-item"><Link href="/blog" className="nav-link">Blog</Link></li>
                     <li className="nav-item"><Link href="/about" className="nav-link">About</Link></li>
                     <li className="nav-item"><Link href="#Contact" className="nav-link btn"><button className="btn">Contact me</button></Link></li>
                 </ul>
