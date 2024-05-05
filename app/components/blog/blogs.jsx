@@ -34,7 +34,7 @@ const Blogs = () => {
             <div className="flex justify-evenly">
                 <div className="blog">
                     <Link href="https://quincyoghenetejiri.hashnode.dev/making-use-of-react-query-in-fetching-data-and-adding-pagination-for-performance-optimization-in-react" target="_blank">
-                        <Image src="/GitHub Actions.webp" width={450} height={270} />
+                        <Image src="/React Query banner.png" width={450} height={270} />
                         <small>by Quincy Oghenetejiri</small>
                         <h3>Making Use of React Query in Fetching Data and Adding Pagination for Performance Optimization in React.</h3>
                     </Link>
