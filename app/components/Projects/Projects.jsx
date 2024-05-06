@@ -8,12 +8,12 @@ import Link from "next/link";
 
 
 
-const Project = ({img, h2, p}) => {
+const Project = ({img, h2, p, href}) => {
     return ( 
         <div className="example py-12">
             <Image src={img} width={1200} height={500} />
             <div className="content ">
-                <Link href="#" className="text">
+                <Link href={href} className="text">
                     <Curved/>
                 </Link>
                 
