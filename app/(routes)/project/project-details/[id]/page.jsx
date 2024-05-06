@@ -1,7 +1,19 @@
+import What from "@/app/components/what/What";
+import Image from "next/image";
+import project1 from "../../../../../public/Project-pics-1.png"
+
+
+
 const ProductDetails = () => {
     return ( 
-        <div className="font-bold text-xl"> 
+        <div className=""> 
+            <Image src={project1} width={1200} height={500} />
+            
+
+            
             This is the project details pages with id
+
+            <What />
 
         </div>
      );
