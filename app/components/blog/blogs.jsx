@@ -5,7 +5,7 @@ import Image from "next/image";
 const Blogs = () => {
     return ( 
         <div className="blogs">
-            <h1 className="text-white text-center" >Blogs</h1>
+            {/* <h1 className="text-white text-center" >Blogs</h1> */}
             <div className="flex justify-evenly">
                 <div className="blog">
                     <Link href="https://adamtheautomator.com/github-actions-matrix/" target="_blank">
@@ -79,6 +79,18 @@ const Blogs = () => {
                     <h3>Creating a Custom Api with Strapi</h3>
                 </Link>
                 </div>
+
+            </div>
+            <div className="flex justify-evenly">
+                <div className="blog">
+                    <Link href="https://quincyoghenetejiri.hashnode.dev/writing-maintainable-tests-in-react-using-the-react-testing-library" target="_blank">
+                        <Image src="/React testing library.avif" width={450} height={270} />
+                        <small>by Quincy Oghenetejiri</small>
+                        <h3>Writing Maintainable Tests in React using the React Testing Library</h3>
+                    </Link>
+                </div>
+                
+                
 
             </div>
             
