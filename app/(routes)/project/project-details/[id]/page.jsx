@@ -11,7 +11,7 @@ const ProductDetails = () => {
             
 
             
-            This is the project details pages with ids
+            This is the project details pages with ids I am trying to work on
 
             <What />
 
