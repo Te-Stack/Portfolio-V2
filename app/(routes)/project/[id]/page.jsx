@@ -1,15 +1,16 @@
 import What from "@/app/components/what/What";
 import Image from "next/image";
-import project1 from "../../../../../public/Project-pics-1.png"
+import project1 from "../../../../public/Project-pics-1.png"
 import MyComponent from "@/app/components/parallax/Parallax";
 
 
 
 
-const ProductDetails = () => {
+const ProductDetails = (data) => {
+    
     return ( 
         <div className=""> 
-            <Image src={project1} width={1200} height={500} />
+            <Image src={data[1]} width={1200} height={500} />
             
 
             
