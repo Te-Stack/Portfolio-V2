@@ -18,6 +18,7 @@ const ProductDetails = () => {
 
             
             This is the project details pages with ids I am trying to work on i think i have an idea but omo 
+            <div><button>View Live </button></div>
             <MyComponent/>
 
             <What />
