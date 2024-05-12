@@ -1,11 +1,11 @@
 import What from "@/app/components/what/What";
 import Image from "next/image";
 import project1 from "../../../../../public/Project-pics-1.png"
-import MyComponent from "@/app/components/parallax/Parallax";
+import ProjectComponent from "@/app/components/parallax/Projectparallax";
 
 
 
-
+ 
 const ProductDetails = () => {
     const data ={
         1:project1
@@ -19,7 +19,13 @@ const ProductDetails = () => {
             
             This is the project details pages with ids I am trying to work on i think i have an idea but omo 
             <div><button>View Live </button></div>
-            <MyComponent/>
+            <ProjectComponent
+                name="S.T.O.R.E"
+                challengeDetails="wait"
+                s
+                solutionDetails="wait"
+            
+            />
 
             <What />
 
