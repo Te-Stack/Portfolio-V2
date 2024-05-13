@@ -7,7 +7,7 @@ import "./parallax.css"
 // Ensure ScrollTrigger is registered with GSAP
 gsap.registerPlugin(ScrollTrigger);
 
-const ProjectComponent = ({name, challengeDetails, solutionDetails} ) => {
+const ProjectComponent = ({name, small, featureDetails, developmentDetails} ) => {
  const sectionRef = useRef(null);
  const colLeftRef = useRef(null);
 
@@ -49,17 +49,17 @@ const ProjectComponent = ({name, challengeDetails, solutionDetails} ) => {
     <div className="flex flex-col md:flex-row justify-between why" ref={sectionRef}>
       <div id="vertical"  ref={colLeftRef}>
         <h2>{name}</h2>
-        <p>{}</p>
+        <p>{small}</p>
       </div>
       <div className="col_left" id="vertical">
       <div className='left'>
                 
-                    <h3>Challenge</h3>
-                    <p>{challengeDetails}</p>
+                    <h3>Features</h3>
+                    <p>{featureDetails}</p>
                 </div>
                 <div className='left'>
-                    <h3>Solution</h3>
-                    <p>{solutionDetails}</p>
+                    <h3>Development Process</h3>
+                    <p>{developmentDetails}</p>
                 </div>
                
         {/* This code is for mobile view.  */}
