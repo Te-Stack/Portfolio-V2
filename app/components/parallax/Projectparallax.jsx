@@ -17,7 +17,7 @@ const ProjectComponent = ({name, small, featureDetails, developmentDetails} ) =>
       animation: gsap.timeline({ paused: true }).fromTo(
         colLeftRef.current,
         { y: 0 },
-        { y: '90vh', duration: 1.5, ease: 'none' },
+        { y: '50vh', duration: 2.5, ease: 'none' },
         0
       ),
       trigger: sectionRef.current,

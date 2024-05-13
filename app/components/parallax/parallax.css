@@ -11,6 +11,10 @@
 
 }
 
+p{
+    color: hsla(0, 0%, 100%, .37) ;
+}
+
 #vertical{
     display: block;
 }
