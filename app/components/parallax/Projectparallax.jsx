@@ -46,7 +46,7 @@ const ProjectComponent = ({name, small, featureDetails, developmentDetails} ) =>
  }, []);
 
  return (
-    <div className="flex flex-col md:flex-row justify-between why" ref={sectionRef}>
+    <div className="flex flex-col md:flex-row justify-between why pt-8" ref={sectionRef}>
       <div id="vertical"  ref={colLeftRef}>
         <h2>{name}</h2>
         <p>{small}</p>
@@ -66,7 +66,7 @@ const ProjectComponent = ({name, small, featureDetails, developmentDetails} ) =>
       </div>
       <div id="mobile">
         <h2>{name}</h2>
-        <p></p>
+        <p>{small}</p>
       </div>
       <div className="col_left" id="mobile">
       <div className='left'>
