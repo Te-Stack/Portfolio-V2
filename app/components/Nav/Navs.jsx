@@ -2,6 +2,8 @@
 import { useState } from "react";
 import Link from "next/link";
 import "./Navs.css"
+import Button from "../button/button";
+
 
 const Nav = () => {
     const [active,setActive] = useState(false)
@@ -26,7 +28,7 @@ const Nav = () => {
                     <li className="nav-item"><Link href="/project" className="nav-link">Projects</Link></li>
                     <li className="nav-item"><Link href="/blog" className="nav-link">Blog</Link></li>
                     <li className="nav-item"><Link href="/about" className="nav-link">About</Link></li>
-                    <li className="nav-item"><Link href="#Contact" className="nav-link btn"><button className="btn">Contact me</button></Link></li>
+                    <li className="nav-item"><Link href="#Contact" className="nav-link btn">Contact Me</Link></li>
                 </ul>
                 <div className={`${active ? "hamburger active" : "hamburger"  }`}  onClick={toggleLinks} >
                     <span className="bar"></span>

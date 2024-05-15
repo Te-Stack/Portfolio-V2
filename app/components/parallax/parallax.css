@@ -26,6 +26,10 @@ p{
     padding: 2rem 4rem;
 }
 
+.crop{
+    padding-left: 20rem;
+}
+
 @media screen and (max-width:468px) {
     .why h2{
         font-weight: 300;

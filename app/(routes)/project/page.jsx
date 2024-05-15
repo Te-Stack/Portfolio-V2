@@ -10,7 +10,7 @@ const Projects = () => {
             <div className="projectpage">
                 <div>
                 <h1>My Projects</h1>
-                <p>Discover prestigious projects</p>
+                <p>Discover my prestigious projects</p>
 
                 </div>
                 

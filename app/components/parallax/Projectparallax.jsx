@@ -17,7 +17,7 @@ const ProjectComponent = ({name, small, featureDetails, developmentDetails} ) =>
       animation: gsap.timeline({ paused: true }).fromTo(
         colLeftRef.current,
         { y: 0 },
-        { y: '50vh', duration: 2.5, ease: 'none' },
+        { y: '100vh', duration: 2.5, ease: 'none' },
         0
       ),
       trigger: sectionRef.current,
@@ -46,18 +46,18 @@ const ProjectComponent = ({name, small, featureDetails, developmentDetails} ) =>
  }, []);
 
  return (
-    <div className="flex flex-col md:flex-row justify-between why pt-8" ref={sectionRef}>
+    <div className="flex flex-col md:flex-row justify-between why p-4" ref={sectionRef}>
       <div id="vertical"  ref={colLeftRef}>
         <h2>{name}</h2>
         <p>{small}</p>
       </div>
       <div className="col_left" id="vertical">
-      <div className='left'>
+      <div className='left crop'>
                 
                     <h3>Features</h3>
                     <p>{featureDetails}</p>
                 </div>
-                <div className='left'>
+                <div className='left crop'>
                     <h3>Development Process</h3>
                     <p>{developmentDetails}</p>
                 </div>
