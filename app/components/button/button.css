@@ -1,9 +1,10 @@
 .btn{
-    padding: 1rem 1rem;
+    padding: 0.5rem 1rem;
     color: var(--OrangeColor);
     background-color: var(--BlackColor);
     border:solid 2px var(--OrangeColor);
     border-radius: 1.4rem;
+    font-weight:bold ;
 }
 .btn:hover{
     background-color: var(--WhiteColor);
