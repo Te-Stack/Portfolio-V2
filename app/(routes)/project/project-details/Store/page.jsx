@@ -1,6 +1,10 @@
 import What from "@/app/components/what/What";
 import Image from "next/image";
 import project1 from "../../../../../public/Project-pics-1.png"
+import data1 from "../../../../../public/Store 2.png"
+import data2 from "../../../../../public/Store 1.png"
+import data3 from "../../../../../public/Store 3.png"
+import data4 from "../../../../../public/Store 4.png"
 import ProjectComponent from "@/app/components/parallax/Projectparallax";
 import Split from "@/app/components/split/split";
 import Button from "@/app/components/button/button";
@@ -39,7 +43,7 @@ const ProductDetails = () => {
 
 
 
-            <Split/>
+            <Split data1={data1} data2={data2} data3={data3}data4={data4} />
             <Link className="text-center mb-4" href="https://react-e-commerce-website-amber.vercel.app/" target="_blank">
             <Button value="View Live" />
 
