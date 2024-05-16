@@ -47,7 +47,7 @@ const Blogs = () => {
                 </Link>
                 </div>
                 <div className="blog">
-                    <Link href="https://www.freecodecamp.org/news/use-redux-toolkit-to-manage-state-in-react-apps/">
+                    <Link href="https://www.cherryservers.com/blog/python-list-length">
                     
                     <Image src="/Python article.jpg" width={450} height={270} />
                     <small>by Quincy Oghenetejiri</small>
