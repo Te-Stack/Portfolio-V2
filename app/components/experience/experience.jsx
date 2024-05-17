@@ -1,13 +1,41 @@
 "use client"
 import Link from "next/link";
 import "./experience.css"
-import { motion, useAnimation } from "framer-motion";
+import { easeIn, easeOut, motion, useAnimation } from "framer-motion";
 
 import { useInView } from "react-intersection-observer";
 
 import { useEffect } from "react";  
 
 const Experience = () => {
+  const control = useAnimation()
+  const control1 = useAnimation()
+    const [ref, inView] = useInView()
+    const [ref1, inView1] = useInView()
+
+    const boxVariant = {
+        visible: { opacity: 1, scale:1,  easeIn, transition:{duration: 0.5} },
+        hidden: { opacity: 0, scale: 0, easeOut },
+      }
+    const boxVariant2 = {
+        visible: { opacity: 1, scale:1,  easeIn, transition:{duration: 0.5} },
+        hidden: { opacity: 0, scale: 0, easeOut },
+      }
+
+      useEffect(() => {
+        if (inView) {
+          control.start("visible");
+        } else {
+            control.start("hidden");
+          }
+      }, [control, inView]);
+      useEffect(() => {
+        if (inView1) {
+          control1.start("visible");
+        } else {
+            control1.start("hidden");
+          }
+      }, [control1, inView1]);
    
     
     return (  
@@ -15,7 +43,8 @@ const Experience = () => {
           <h1>Experience</h1>
           <p><Link href="https://drive.google.com/file/d/1gFqYISHgQNsjYmmYYlxvR0WQbMpyw311/view?usp=drive_link" target="__blank" >Download Resumes</Link></p>
 
-          <div className="cv">
+          <motion.div variants={boxVariant} ref={ref} initial="hidden"
+        animate={control} className="cv">
             <h3>Freelancing Software Developer/Technical Writer - Remote </h3>
             <small>APRIL 2023 - PRESENT </small>
 
@@ -33,8 +62,9 @@ const Experience = () => {
 
             
             
-          </div>
-          <div className="cv">
+          </motion.div>
+          <motion.div variants={boxVariant2} ref={ref1} initial="hidden"
+        animate={control1} className="cv">
             <h3>Frontend Developer - PiHub - Remote </h3>
             <small>AUGUST 2022 – MARCH 2023 </small>
 
@@ -52,7 +82,7 @@ const Experience = () => {
 
             
             
-          </div>
+          </motion.div>
           <div className="cv">
             <h3>Freelancing Web Consultant</h3>
             <small>AUGUST 2022 – MARCH 2023 </small>

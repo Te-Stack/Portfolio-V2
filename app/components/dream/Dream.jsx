@@ -18,9 +18,10 @@ const Dream = () => {
       useEffect(() => {
         if (inView) {
           control.start("visible");
-        } else {
-            control.start("hidden");
-          }
+        } 
+        // else {
+        //     control.start("hidden");
+        //   }
       }, [control, inView]);
     return ( 
         <motion.div variants={boxVariant} ref={ref} initial="hidden"
