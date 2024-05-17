@@ -18,8 +18,8 @@ const Experience = () => {
         hidden: { opacity: 0, scale: 0, easeOut },
       }
     const boxVariant2 = {
-        visible: { opacity: 1, scale:1,  easeIn, transition:{duration: 0.5} },
-        hidden: { opacity: 0, scale: 0, easeOut },
+        visible: { opacity: 1, easeIn, transition:{duration: 0.5} },
+        hidden: { opacity: 0,easeOut },
       }
 
       useEffect(() => {
