@@ -4,23 +4,32 @@ import "./experience.css"
 import { delay, easeIn, easeOut, motion, useAnimation } from "framer-motion";
 
 import { useInView } from "react-intersection-observer";
-
+Button
 import { useEffect } from "react";  
+import Button from "../button/button";
 
 const Experience = () => {
   const control = useAnimation()
   const control1 = useAnimation()
+  const control2 = useAnimation()
+  const control3 = useAnimation()
+  const control4 = useAnimation()
+
+
     const [ref, inView] = useInView()
     const [ref1, inView1] = useInView()
+    const [ref2, inView2] = useInView()
+    const [ref3, inView3] = useInView()
+    const [ref4, inView4] = useInView()
 
     const boxVariant = {
-        visible: { opacity: 1,x:40,   ease:"linear", transition:{delay: 0.5} },
-        hidden: { opacity: 0,x:0, easeOut, transition:{duration:0.5} },
+        visible: { opacity: 1,y:-40,   ease:"linear", transition:{delay: 0.5} },
+        hidden: { opacity: 0,y:40, easeOut, transition:{duration:0.5} },
       }
-    const boxVariant2 = {
-        visible: { opacity: 1, easeIn, transition:{duration: 1} },
-        hidden: { opacity: 0,},
-      }
+    // const boxVariant2 = {
+    //     visible: { opacity: 1, easeIn, transition:{duration: 1} },
+    //     hidden: { opacity: 0,},
+    //   }
 
       useEffect(() => {
         if (inView) {
@@ -29,19 +38,44 @@ const Experience = () => {
             control.start("hidden");
           }
       }, [control, inView]);
+
       useEffect(() => {
         if (inView1) {
           control1.start("visible");
         } else {
             control1.start("hidden");
           }
-      }, [control1, inView1]);
+      }, [control, inView1]);
+
+      useEffect(() => {
+        if (inView2) {
+          control2.start("visible");
+        } else {
+            control2.start("hidden");
+          }
+      }, [control2, inView2]);
+
+      useEffect(() => {
+        if (inView3) {
+          control3.start("visible");
+        } else {
+            control3.start("hidden");
+          }
+      }, [control3, inView3]);
+
+      useEffect(() => {
+        if (inView4) {
+          control4.start("visible");
+        } else {
+            control4.start("hidden");
+          }
+      }, [control3, inView4]);
    
     
     return (  
         <div className="experience">
           <h1>Experience</h1>
-          <p><Link href="https://drive.google.com/file/d/1gFqYISHgQNsjYmmYYlxvR0WQbMpyw311/view?usp=drive_link" target="__blank" >Download Resumes</Link></p>
+          <Link href="https://drive.google.com/file/d/1gFqYISHgQNsjYmmYYlxvR0WQbMpyw311/view?usp=drive_link" target="_blank" ><Button value="Download Resume" /></Link>
 
           <motion.div variants={boxVariant} ref={ref} initial="hidden"
         animate={control} className="cv">
@@ -83,7 +117,8 @@ const Experience = () => {
             
             
           </motion.div>
-          <div className="cv">
+          <motion.div variants={boxVariant} ref={ref2} initial="hidden"
+        animate={control2} className="cv">
             <h3>Freelancing Web Consultant</h3>
             <small>AUGUST 2022 – MARCH 2023 </small>
 
@@ -101,8 +136,9 @@ const Experience = () => {
 
             
             
-          </div>
-          <div className="cv">
+          </motion.div>
+          <motion.div variants={boxVariant} ref={ref3} initial="hidden"
+        animate={control3} className="cv">
             <h3>Intern Frontend Developer - Migrants Solutions</h3>
             <small>AUGUST 2022 – MARCH 2023 </small>
 
@@ -120,10 +156,11 @@ const Experience = () => {
 
             
             
-          </div>
+          </motion.div>
 
           <h1>Education</h1>
-          <div className="cv">
+          <motion.div variants={boxVariant} ref={ref4} initial="hidden"
+        animate={control4} className="cv">
             <h3>Biochemistry (B.Sc) - University of Benin</h3>
             <small>JANUARY 2018 – DECEMBER 2022 </small>
 
@@ -141,7 +178,7 @@ const Experience = () => {
 
             
             
-          </div>
+          </motion.div>
         </div>
      );
 }
