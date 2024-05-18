@@ -1,7 +1,7 @@
 "use client"
 import Link from "next/link";
 import "./experience.css"
-import { easeIn, easeOut, motion, useAnimation } from "framer-motion";
+import { delay, easeIn, easeOut, motion, useAnimation } from "framer-motion";
 
 import { useInView } from "react-intersection-observer";
 
@@ -14,12 +14,12 @@ const Experience = () => {
     const [ref1, inView1] = useInView()
 
     const boxVariant = {
-        visible: { opacity: 1, scale:1,  easeIn, transition:{duration: 0.5} },
-        hidden: { opacity: 0, scale: 0, easeOut },
+        visible: { opacity: 1,x:40,   ease:"linear", transition:{delay: 0.5} },
+        hidden: { opacity: 0,x:0, easeOut, transition:{duration:0.5} },
       }
     const boxVariant2 = {
-        visible: { opacity: 1, easeIn, transition:{duration: 0.5} },
-        hidden: { opacity: 0,easeOut },
+        visible: { opacity: 1, easeIn, transition:{duration: 1} },
+        hidden: { opacity: 0,},
       }
 
       useEffect(() => {
@@ -63,7 +63,7 @@ const Experience = () => {
             
             
           </motion.div>
-          <motion.div variants={boxVariant2} ref={ref1} initial="hidden"
+          <motion.div variants={boxVariant} ref={ref1} initial="hidden"
         animate={control1} className="cv">
             <h3>Frontend Developer - PiHub - Remote </h3>
             <small>AUGUST 2022 – MARCH 2023 </small>
