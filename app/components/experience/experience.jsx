@@ -23,8 +23,8 @@ const Experience = () => {
     const [ref4, inView4] = useInView()
 
     const boxVariant = {
-        visible: { opacity: 1,y:-40,   ease:"linear", transition:{delay: 0.5} },
-        hidden: { opacity: 0,y:40, easeOut, transition:{duration:0.5} },
+        visible: { opacity: 1,y:-40,  transition:{delay: 0.7, ease:easeIn, duration:1}},
+        hidden: { opacity: 0,y:40, transition:{duration:0.2, ease:easeOut} },
       }
     // const boxVariant2 = {
     //     visible: { opacity: 1, easeIn, transition:{duration: 1} },
@@ -76,11 +76,21 @@ const Experience = () => {
         <div className="experience">
           <h1>Experience</h1>
           <Link href="https://drive.google.com/file/d/1gFqYISHgQNsjYmmYYlxvR0WQbMpyw311/view?usp=drive_link" target="_blank"><Button value="Download Resume" /></Link>
+          <div className="flex justify-evenly">
+            <div className="circle p-8 m-4">
+            
 
-          <motion.div variants={boxVariant} ref={ref} initial="hidden"
+          </div>
+         
+
+            <div>
+            <motion.div variants={boxVariant} ref={ref} initial="hidden"
         animate={control} className="cv">
             <h3>Freelancing Software Developer/Technical Writer - Remote </h3>
             <small>APRIL 2023 - PRESENT </small>
+
+          
+            
 
             <div className="cvdetails">
             <p className="pb-4">Key Accomplishments:</p>
@@ -94,7 +104,6 @@ const Experience = () => {
 
             </div>
 
-            
             
           </motion.div>
           <motion.div variants={boxVariant} ref={ref1} initial="hidden"
@@ -157,6 +166,11 @@ const Experience = () => {
             
             
           </motion.div>
+
+            </div>
+
+          </div>
+          
 
           <h1>Education</h1>
           <motion.div variants={boxVariant} ref={ref4} initial="hidden"
