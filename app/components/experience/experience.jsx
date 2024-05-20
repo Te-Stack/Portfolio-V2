@@ -5,11 +5,15 @@ import { delay, easeIn, easeOut, motion, useAnimation } from "framer-motion";
 
 import { useInView } from "react-intersection-observer";
 
-import { useEffect } from "react";  
+import { useState,useEffect } from "react";  
 import Button from "../button/button";
 import Image from "next/image";
 
 const Experience = () => {
+  const [scrollPosition, setScrollPosition] = useState(0);
+
+
+  const controls = useAnimation();
   const control = useAnimation()
   const control1 = useAnimation()
   const control2 = useAnimation()
@@ -71,15 +75,38 @@ const Experience = () => {
             control4.start("hidden");
           }
       }, [control3, inView4]);
-   
-    
+
+      // Function to handle scroll event
+  const handleScroll = async () => {
+    if (window.scrollY > 100) { // Adjust threshold as needed
+      await controls.start({
+        scaleX: window.scrollY / 500, // Adjust scaling factor as needed
+        transition: { duration: 0.5 },
+      });
+    }
+  };
+
+  useEffect(() => {
+    window.addEventListener('scroll', handleScroll);
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, []);
     return (  
         <div className="experience">
           <h1>Experience</h1>
           <Link href="https://drive.google.com/file/d/1gFqYISHgQNsjYmmYYlxvR0WQbMpyw311/view?usp=drive_link" target="_blank"><Button value="Download Resume" /></Link>
           <div className="flex justify-evenly">
             <div className="circl p-4 m-4">
-              <Image src="/line.svg" width={200} height={200}/>
+            <motion.svg width="200" height="200" viewBox="0 0 200 20" fill="#F15827" xmlns="http://www.w3.org/2000/svg">
+        <motion.line
+          x1="75"
+          y1="50"
+          x2="50" // Use progress to control the end position of the line
+          y2={controls.progress * 100}
+          stroke="#F15827"
+          strokeWidth="5"
+          animate={controls}
+        />
+    </motion.svg>
               
             
 
