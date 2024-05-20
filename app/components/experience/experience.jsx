@@ -4,9 +4,10 @@ import "./experience.css"
 import { delay, easeIn, easeOut, motion, useAnimation } from "framer-motion";
 
 import { useInView } from "react-intersection-observer";
-Button
+
 import { useEffect } from "react";  
 import Button from "../button/button";
+import Image from "next/image";
 
 const Experience = () => {
   const control = useAnimation()
@@ -77,7 +78,10 @@ const Experience = () => {
           <h1>Experience</h1>
           <Link href="https://drive.google.com/file/d/1gFqYISHgQNsjYmmYYlxvR0WQbMpyw311/view?usp=drive_link" target="_blank"><Button value="Download Resume" /></Link>
           <div className="flex justify-evenly">
-            <div className="circle p-8 m-4">
+            <div className="circl p-8 m-4">
+              <Image src="/line.svg"  width={20} height={20}/>
+              
+              
             
 
           </div>
