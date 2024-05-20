@@ -78,9 +78,8 @@ const Experience = () => {
           <h1>Experience</h1>
           <Link href="https://drive.google.com/file/d/1gFqYISHgQNsjYmmYYlxvR0WQbMpyw311/view?usp=drive_link" target="_blank"><Button value="Download Resume" /></Link>
           <div className="flex justify-evenly">
-            <div className="circl p-8 m-4">
-              <Image src="/line.svg"  width={20} height={20}/>
-              
+            <div className="circl p-4 m-4">
+              <Image src="/line.svg" width={200} height={200}/>
               
             
 
