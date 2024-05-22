@@ -17,7 +17,7 @@ const MyComponent = () => {
       animation: gsap.timeline({ paused: true }).fromTo(
         colLeftRef.current,
         { y: 0 },
-        { y: '127vh', duration: 1.5, ease: 'none' },
+        { y: '127vh', duration: 1.5, ease: 'easeIn' },
         0
       ),
       trigger: sectionRef.current,
