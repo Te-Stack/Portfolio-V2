@@ -5,6 +5,7 @@ import "./Navs.css"
 import Button from "../button/button";
 
 
+
 const Nav = () => {
     const [active,setActive] = useState(false)
 
@@ -24,7 +25,7 @@ const Nav = () => {
                 
                 <ul  className={`${active ? "nav-menu active" : "nav-menu"  }`}>
                         
-                    <li className="nav-item"><Link href="/" className="nav-link">Home</Link></li>
+                    <li className="nav-item"><Link href="/" className="nav-link">Homes</Link></li>
                     <li className="nav-item"><Link href="/project" className="nav-link">Projects</Link></li>
                     <li className="nav-item"><Link href="/blog" className="nav-link">Blog</Link></li>
                     <li className="nav-item"><Link href="/about" className="nav-link">About</Link></li>
