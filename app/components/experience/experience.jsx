@@ -193,8 +193,7 @@ const Experience = () => {
                   <p><li>Ensure all software activities are conducted in accordance with the Software Development Life Cycle.</li></p>
                   <p><li>Wrote maintainable and readable code thus making it easy to work with other developers thereby increasing team work spirit in the workplace.</li></p>
                   <p><li>Work to mentor and challenge team members in turn improving the relationship between my colleagues.</li></p>
-                  <p><li>Converted HTML, CSS codebase to Reactjs and SASS increasing the performance of the product by 20%.</li></p>
-
+                  
             </div>
 
             
