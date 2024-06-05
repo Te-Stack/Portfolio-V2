@@ -192,7 +192,7 @@ const Experience = () => {
                   
                   
                   <p><li>Wrote maintainable and readable code thus making it easy to work with other developers thereby increasing team work spirit in the workplace.</li></p>
-                  <p><li>Work to mentor and challenge team members in turn improving the relationship between my colleagues.</li></p>
+                  
                   
             </div>
 
