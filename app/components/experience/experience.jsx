@@ -188,7 +188,7 @@ const Experience = () => {
 
             <div className="cvdetails">
             <p className="pb-4">Key Accomplishments:</p>
-            <p><li>Wetin I do sef omo god is good </li></p>
+            <p><li>Wetin I do sef omo god is good yh </li></p>
                   
                   
                   
