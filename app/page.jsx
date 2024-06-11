@@ -16,9 +16,9 @@ export default function Home() {
   return (
     <main >
         <Hero/>
-        <Project img={project1} h2="S.T.O.R.E" p="E.Commerce Website" href="/project/project-details/1"  />
-        <Project img={project2} h2="Student's Finance Club" p="Organisational Website " href="/project/project-details/2"   />
-        <Project  img={project3} h2="Job Application App" p="Mobile Application " href="/project/project-details/3"  />
+        <Project img={project1} h2="S.T.O.R.E" p="E.Commerce Website" href="/project/project-details/Store"  />
+        <Project img={project2} h2="Student's Finance Club" p="Organisational Website " href="/project/project-details/Sfc"   />
+        <Project  img={project3} h2="Job Application App" p="Mobile Application " href="/project/project-details/Job"  />
         <MyComponent/>
         {/* <Why/> */}
         <What/>
