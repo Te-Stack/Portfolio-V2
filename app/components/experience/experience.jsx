@@ -137,38 +137,31 @@ const Experience = () => {
           <motion.div variants={boxVariant} ref={ref2} initial="hidden"
         animate={control2} className="cv">
             <h3>Freelancing Web Consultant</h3>
-            <small>AUGUST 2022 – MARCH 2023 </small>
+            <small>APRIL 2021 – JAN 2022 </small>
 
             <div className="cvdetails">
             <p className="pb-4">Key Accomplishments:</p>
                   
-                  <p><li>Upgraded outdated packages and refractor codebase and design which in turn improved the user experience of
-                  the site.</li></p>
-                  <p><li>Ensure all software activities are conducted in accordance with the Software Development Life Cycle.</li></p>
-                  <p><li>Wrote maintainable and readable code thus making it easy to work with other developers thereby increasing team work spirit in the workplace.</li></p>
-                  <p><li>Work to mentor and challenge team members in turn improving the relationship between my colleagues.</li></p>
-                  <p><li>Converted HTML, CSS codebase to Reactjs and SASS increasing the performance of the product by 20%.</li></p>
-
+                  <p><li>Worked with other developers in building and contributing to open source projects in turn contributing to the
+                  community.</li></p>
+                  <p><li>Built scalable and responsive web application for client which improved the online presence of their businesses.</li></p>
+                  <p><li>Collaborated in a diverse team consisting of 6 persons to develop a student organization web application with
+                  the MERN stack which help to increase the number of members in the organization.</li></p>
             </div>
-
-            
             
           </motion.div>
           <motion.div variants={boxVariant} ref={ref3} initial="hidden"
         animate={control3} className="cv">
             <h3>Intern Frontend Developer - Migrants Solutions</h3>
-            <small>AUGUST 2022 – MARCH 2023 </small>
+            <small>JUNE 2020 – DECEMBER 2020 </small>
 
             <div className="cvdetails">
             <p className="pb-4">Key Accomplishments:</p>
                   
-                  <p><li>Upgraded outdated packages and refractor codebase and design which in turn improved the user experience of
-                  the site.</li></p>
-                  <p><li>Ensure all software activities are conducted in accordance with the Software Development Life Cycle.</li></p>
-                  <p><li>Wrote maintainable and readable code thus making it easy to work with other developers thereby increasing team work spirit in the workplace.</li></p>
-                  <p><li>Work to mentor and challenge team members in turn improving the relationship between my colleagues.</li></p>
-                  <p><li>Converted HTML, CSS codebase to Reactjs and SASS increasing the performance of the product by 20%.</li></p>
-
+                  <p><li>Collaborated in a team of 4 for a website redesign competition as the team lead where we design the
+                  wireframes with figma and built a web application which was submitted for the competition.</li></p>
+                  <p><li>Team lead of my team and assisted in solving of error bugs for my team members.</li></p>
+                  <p><li>Contributed to open source pro on GitHub and assisted in solving of error bug for my team members.</li></p>
             </div>
 
             
@@ -188,7 +181,8 @@ const Experience = () => {
 
             <div className="cvdetails">
             <p className="pb-4">Key Accomplishments:</p>
-            <p><li>Wetin I do sef omo god is good yh </li></p>
+            <p><li>Volunteer at GoAbitfurther Africa.</li></p>
+            <p><li>Member of Student Finance Club -UNIBEN CHAPTER </li></p>
                   
                   
                   
