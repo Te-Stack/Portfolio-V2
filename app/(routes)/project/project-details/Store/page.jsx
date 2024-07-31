@@ -32,11 +32,26 @@ const ProductDetails = () => {
             <ProjectComponent
                 name="S.T.O.R.E"
                 small='E-commerce website '
-                featureDetails="Blog Section: Leveraging Next.js's server-side rendering (SSR) capabilities, I developed a captivating blog section that offers a diverse range of articles, insights, and resources on mental health and personal development. Through interactive React components and optimized content delivery, users can engage with informative content while experiencing lightning-fast page load times.
-                Events Page: With a focus on community engagement and support, the Unveiled Nation website features an events page that dynamically showcases upcoming workshops, seminars, and therapeutic sessions. By harnessing the power of SQL databases for data management and retrieval, I implemented a seamless event management system, allowing users to stay informed and participate in transformative experiences.
-                E-commerce Page: In alignment with Unveiled Nation's mission to provide accessible resources for mental well-being, I developed an e-commerce page where customers can explore and purchase products and resources directly from the website. Through secure payment gateways and intuitive checkout processes, users can seamlessly shop for books, tools, and other therapeutic resources, fostering a supportive environment for personal growth and healing. "
+                featureDetails="The E-Commerce Store is built using React.js, Tailwind CSS, and Sass. This store allows customers to browse products on various pages, such as the home page, shop page, and detailed pages for men, women, and children. Users can add, remove, and check out products, with state management handled by React State and Context API. The store uses the local storage of the device as its database​​.
+
+                The website's features include:
                 
-                developmentDetails="The Unveiled Nation website was meticulously crafted using JavaScript's Next.js framework, renowned for its versatility and performance in building powerful web applications. With SQL as the chosen database language, I seamlessly integrated robust backend functionalities with a dynamic and responsive front-end interface, ensuring a seamless user experience across all devices."
+
+                Home Page: Displays featured products and promotions.
+                Shop Page: Allows users to browse all available products.
+                Product Detail Pages: Provide detailed information about each product.
+                Cart Page: Users can review and manage their selected items before proceeding to checkout.
+                Checkout Option: Facilitates the purchase process"
+                
+                developmentDetails="Building the E-Commerce Store involves a series of development steps to ensure a functional and visually appealing web application. Tools and Technologies: Use React.js for building the user interface, Tailwind CSS for styling, and Sass for additional styling capabilities.
+                Version Control: Set up a GitHub repository for version control and collaboration​ (GitHub)​​ (Ecommerce Website)​.Component Structure: Develop a component-based structure using React. Each part of the site (e.g., header, footer, product card) is built as a reusable component.
+                State Management: Implement state management using React State and Context API to handle the application's state across different components.
+                Routing: Use React Router for navigation between different pages, such as the home page, shop page, and product detail pages​ (GitHub)​.Tailwind CSS: Apply Tailwind CSS for responsive design and utility-first styling.
+                Sass: Use Sass for advanced CSS capabilities, like nesting and variables, to keep the styles organized and maintainable. Product Pages: Create pages for displaying products, including categories for men, women, and children.
+                Cart and Checkout: Implement the cart functionality where users can add and remove items, and a checkout process to finalize purchases.
+                Local Storage: Use local storage to save cart data and user preferences, providing a seamless experience even after page reloads​ (GitHub)​​ (Ecommerce Website)​. Unit Testing: Write unit tests for individual components to ensure they work as expected.
+                Integration Testing: Test the integration of different components and features to ensure they work together without issues.
+                User Testing: Conduct user testing to gather feedback and make necessary adjustments to the UI and functionality."
             
             />
             
