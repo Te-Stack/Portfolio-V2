@@ -1,7 +1,14 @@
 .why h2{
     font-weight: 500;
-    font-size: 2.7rem;
+    font-size: 1rem;
     color: var(--WhiteColor);
+}
+
+#vertical h2{
+    font-weight: 500;
+    font-size: 2.2rem;
+    color: var(--WhiteColor);
+
 }
 
 .why h3{
@@ -33,7 +40,7 @@ p{
 @media screen and (max-width:468px) {
     .why h2{
         font-weight: 300;
-        font-size: 2.3rem;
+        font-size: 2rem;
         color: var(--WhiteColor);
         padding-left: 1rem;
     }

@@ -32,7 +32,7 @@ const Hero = () => {
             <h1 className="hidden md:block">Building <span>software and</span>  <br/> <span className="pl-8">crafting words</span></h1>
             <h1 className="block md:hidden">Building <span>software and <br/> </span>  <span>crafting words</span></h1>
             <p>Software Developer | Technical Writer | Problem solver... </p>
-            <p><Link href="#" >Get in Touch &gt;</Link></p>
+            <p><Link href="mailto:ukumakubequincy@gmail.com" >Get in Touch &gt;</Link></p>
             <div className="logos py-4">
                 <div className="logos-slide">
                 <Image className="image  px-8" src="/next.svg" width={120} height={100} />
