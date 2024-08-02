@@ -43,15 +43,7 @@ const ProductDetails = () => {
                 Cart Page: Users can review and manage their selected items before proceeding to checkout.
                 Checkout Option: Facilitates the purchase process"
                 
-                developmentDetails="Building the E-Commerce Store involves a series of development steps to ensure a functional and visually appealing web application. Tools and Technologies: Use React.js for building the user interface, Tailwind CSS for styling, and Sass for additional styling capabilities.
-                Version Control: Set up a GitHub repository for version control and collaboration​ (GitHub)​​ (Ecommerce Website)​.Component Structure: Develop a component-based structure using React. Each part of the site (e.g., header, footer, product card) is built as a reusable component.
-                State Management: Implement state management using React State and Context API to handle the application's state across different components.
-                Routing: Use React Router for navigation between different pages, such as the home page, shop page, and product detail pages​ (GitHub)​.Tailwind CSS: Apply Tailwind CSS for responsive design and utility-first styling.
-                Sass: Use Sass for advanced CSS capabilities, like nesting and variables, to keep the styles organized and maintainable. Product Pages: Create pages for displaying products, including categories for men, women, and children.
-                Cart and Checkout: Implement the cart functionality where users can add and remove items, and a checkout process to finalize purchases.
-                Local Storage: Use local storage to save cart data and user preferences, providing a seamless experience even after page reloads​ (GitHub)​​ (Ecommerce Website)​. Unit Testing: Write unit tests for individual components to ensure they work as expected.
-                Integration Testing: Test the integration of different components and features to ensure they work together without issues.
-                User Testing: Conduct user testing to gather feedback and make necessary adjustments to the UI and functionality."
+                developmentDetails="I followed a structured development process involving several key steps. The process began with setting up the project environment using React.js, Tailwind CSS, and Sass for styling. State management was implemented using React State and Context API to handle the application's data flow. Pages were created for home, shop, product details, and cart functionalities. Local storage was utilized to manage the cart data. The site was then deployed on Vercel, ensuring it was optimized for performance and accessibility."
             
             />
             
