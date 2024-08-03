@@ -17,7 +17,7 @@ const MyComponent = () => {
       animation: gsap.timeline({ paused: true }).fromTo(
         colLeftRef.current,
         { y: 0 },
-        { y: '107vh', duration: 2.5, ease: 'easeIn' },
+        { y: '109vh', duration: 9.5, ease: 'easeIn' },
         0
       ),
       trigger: sectionRef.current,
@@ -46,9 +46,9 @@ const MyComponent = () => {
  }, []);
 
  return (
-    <div className="flex flex-col md:flex-row justify-between why" ref={sectionRef}>
+    <div className="flex flex-col md:flex-row justify-evenly why" ref={sectionRef}>
       <div id="vertical"  ref={colLeftRef}>
-        <h2>Why Choose Me for Your Technical Writing and Development Needs?</h2>
+        <h2>Why Choose Me for Your Technical  Writing and Development Needs?</h2>
       </div>
       <div className="col_left" id="vertical">
       <div className='left'>

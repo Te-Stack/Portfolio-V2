@@ -15,7 +15,7 @@ const Footer = () => {
             <p className="outlier">Developed By <Link href="https://www.twitter.com/Quincyoghenex">Quincy</Link></p>
             </div>
 
-            <div className="flex flex-row px-4">
+            <div className="flex flex-row justify-evenly px-4 ">
                 <div className="px-4">
                     <p className="pb-2"><Link className="outlier " href="">Projects</Link></p>
                     <p className="pb-2"><Link href="" >Blog</Link></p>
