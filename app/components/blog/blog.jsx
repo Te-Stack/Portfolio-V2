@@ -6,7 +6,7 @@ const Blog = () => {
     return ( 
         <div className="blogs">
             <h1 className="text-white text-center" >Blog</h1>
-            <div className="flex justify-evenly">
+            <div className="flex flex-col md:flex-row justify-between">
                 <div className="blog">
                     <Link href="https://adamtheautomator.com/github-actions-matrix/" target="_blank">
                         <Image src="/GitHub Actions.webp" width={450} height={270} />

@@ -26,8 +26,8 @@ const Dream = () => {
     return ( 
         <motion.div variants={boxVariant} ref={ref} initial="hidden"
         animate={control}  className="dream">
-            <p>WE CAN'T WAIT TO HEAR FROM YOU!</p>
-            <h3>Let's start the conversation <br/> today and make your digital <br/> dreams a reality!</h3>
+            <p>I CAN'T WAIT TO HEAR FROM YOU!</p>
+            <h3> Reach out, and <br/> together, we can turn  <br/> your vision into a well-documented, perfectly developed success.</h3>
             <p><Link href="#" >Start Project request</Link></p>
 
 
