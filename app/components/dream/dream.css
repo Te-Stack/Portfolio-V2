@@ -1,6 +1,6 @@
 .dream{
     color: var(--WhiteColor);
-    padding: 5rem 0 2rem 0 ;
+    padding: 5rem 1rem 2rem 1rem ;
     display: flex; 
     flex-direction: column;
     align-items: center;
@@ -31,3 +31,10 @@ a:hover{
     transition: 60ms;
 }
   
+@media screen and (max-width:468px){
+    .dream h3{
+        font-size: 2.1rem;
+        font-weight: 500;
+    }
+
+}

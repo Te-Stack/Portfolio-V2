@@ -1,4 +1,7 @@
+.blog {
+    padding: 1rem 1rem;
 
+}
 .blog h3{
     color: var(--WhiteColor);
     font-weight: 400;
