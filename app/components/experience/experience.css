@@ -3,6 +3,8 @@
   padding: 7rem 3rem;
 }
 
+
+
 .experience h1{
   font-size: 3.5rem;
   font-weight: 500;
@@ -11,17 +13,25 @@
 
 .experience h3{
   font-size: 2.8rem;
-  padding-bottom: 0;
+  padding-bottom: 1rem;
   font-weight: 500;
 }
 
-.circle{
-  padding: 0.5rem 0.1rem;
-  border: none;
-  border-radius: 1rem;
-  background-color: var(--OrangeColor);
-}
 
+.cv ::before{
+  content: "";
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  border-radius: 50px;
+  left: -9px;
+  top: 0;
+  background: var(--OrangeColor);
+  border: 2px solid var(--OrangeColor);
+  
+
+
+}
 
 .cv .cvdetails{
   padding: 1rem 12rem 1rem 0;
@@ -29,8 +39,61 @@
 
 
 .cv{
-  padding: 4rem 12rem 0 4rem;
+    padding: 1rem 12rem 0 4rem;
+    margin-top: 8px;
+    border-left: 3px solid var(--OrangeColor);
+    position: relative;
 }
   
 
 
+@media screen and (max-width:468px) {
+  .experience{
+    color: var(--WhiteColor);
+    padding: 1rem 0.5rem;
+  }
+  
+  
+  
+  .experience h1{
+    font-size: 2rem;
+    font-weight: 400;
+  
+  }
+  
+  .experience h3{
+    font-size: 1.4rem;
+    padding-bottom: 1rem;
+    font-weight: 500;
+  }
+  
+  
+  .cv ::before{
+    content: "";
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    border-radius: 50px;
+    left: -9px;
+    top: 0;
+    background: var(--OrangeColor);
+    border: 2px solid var(--OrangeColor);
+    
+  
+  
+  }
+  
+  .cv .cvdetails{
+    padding: 1rem 0.1rem 1rem 0;
+  }
+  
+  
+  .cv{
+  
+      padding: 1rem 1rem 0 2rem;
+      margin-top: 8px;
+      border-left: 3px solid var(--OrangeColor);
+      position: relative;
+  }
+  
+}

@@ -13,3 +13,22 @@
 .details{
     padding: 10rem 10rem;
 }
+
+@media screen and (max-width:468px){
+    .aboutme{
+        padding: 5rem 1rem 3rem 1rem;
+    
+    }
+    
+    .aboutme h1{
+        font-size: 2.2rem;
+        color: var(--WhiteColor);
+        font-weight: 550;
+        padding: 0 1rem 3rem 1rem;
+    }
+    
+    .details{
+        padding: 5rem 1rem;
+    }
+    
+}

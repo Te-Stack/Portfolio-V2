@@ -6,7 +6,7 @@ const Aboutme = () => {
     return ( 
         <div className="aboutme">
             <h1>My name is Quincy Oghenetejiri , I am a Software Developer and Technical Writer</h1>
-            <div className="flex justify-between">
+            <div className="md:flex flex-row justify-between">
                 <div>
                     <Image src="/Author Pics (1).jpg" width={1300} height={400} />
                 </div>

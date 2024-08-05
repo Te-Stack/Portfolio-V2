@@ -80,18 +80,10 @@ const Experience = () => {
         <div className="experience">
           <h1>Experience</h1>
           <Link href="https://drive.google.com/file/d/1gFqYISHgQNsjYmmYYlxvR0WQbMpyw311/view?usp=drive_link" target="_blank"><Button value="Download Resume" /></Link>
-          <div className="flex justify-evenly">
-            <div className="circle p-4 m-4">
-              {/* <ScrollDrawing /> */}
-
-            
-              
-            
-
-          </div>
-         
-
-            <div>
+          <div className="">
+           
+ 
+            <div className="p-4 md:p-14">
             <motion.div variants={boxVariant} ref={ref} initial="hidden"
         animate={control} className="cv">
             <h3>Freelancing Software Developer/Technical Writer - Remote </h3>
@@ -174,6 +166,7 @@ const Experience = () => {
           
 
           <h1>Education</h1>
+          <div className="p-4 md:p-14">
           <motion.div variants={boxVariant} ref={ref4} initial="hidden"
         animate={control4} className="cv">
             <h3>Biochemistry (B.Sc) - University of Benin</h3>
@@ -193,6 +186,9 @@ const Experience = () => {
             
             
           </motion.div>
+
+          </div>
+          
         </div>
      );
 }
