@@ -28,7 +28,6 @@ const Hero = () => {
     return ( 
         <motion.div variants={boxVariant} ref={ref} initial="hidden"
         animate={control} className="hero" >
-            <small>Quincy Oghenetejiri</small>
             <h1 className="hidden md:block">Building <span>software and</span>  <br/> <span className="pl-8">crafting words</span></h1>
             <h1 className="block md:hidden">Building <span>software and <br/> </span>  <span>crafting words</span></h1>
             <p>Software Developer | Technical Writer</p>

@@ -7,7 +7,6 @@ import { useInView } from "react-intersection-observer";
 import { useState,useEffect } from "react";  
 import Button from "../button/button";
 import Image from "next/image";
-import ScrollDrawing from "../scrollDrawing/scrollDrawing";
 
 const Experience = () => {
   
@@ -30,10 +29,7 @@ const Experience = () => {
         visible: { opacity: 1,y:-40,  transition:{delay: 0.7, ease:easeIn, duration:1}},
         hidden: { opacity: 0,y:40, transition:{duration:0.2, ease:easeOut} },
       }
-    // const boxVariant2 = {
-    //     visible: { opacity: 1, easeIn, transition:{duration: 1} },
-    //     hidden: { opacity: 0,},
-    //   }
+    
 
       useEffect(() => {
         if (inView) {
