@@ -31,7 +31,7 @@ const Blogs = () => {
                 </div>
 
             </div>
-            <div className="flex justify-evenly">
+            <div className="flex flex-col md:flex-row justify-evenly">
                 <div className="blog">
                     <Link href="https://quincyoghenetejiri.hashnode.dev/making-use-of-react-query-in-fetching-data-and-adding-pagination-for-performance-optimization-in-react" target="_blank">
                         <Image src="/React Query banner.png" width={450} height={270} />
@@ -56,7 +56,7 @@ const Blogs = () => {
                 </div>
 
             </div>
-            <div className="flex justify-evenly">
+            <div className="flex flex-col md:flex-row justify-evenly">
                 <div className="blog">
                     <Link href="https://quincyoghenetejiri.hashnode.dev/creating-a-typewriting-effect-in-reactjs" target="_blank">
                         <Image src="/React Typewriting.png" width={450} height={270} />
@@ -81,7 +81,7 @@ const Blogs = () => {
                 </div>
 
             </div>
-            <div className="flex justify-evenly">
+            <div className="flex flex-col md:flex-row justify-evenly">
                 <div className="blog">
                     <Link href="https://quincyoghenetejiri.hashnode.dev/writing-maintainable-tests-in-react-using-the-react-testing-library" target="_blank">
                         <Image src="/React testing library.avif" width={450} height={270} />

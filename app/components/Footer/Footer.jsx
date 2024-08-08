@@ -57,10 +57,13 @@ const Footer = () => {
         <div className="footer-column">
           <h2>Contact</h2>
           <ul>
+            <li><Link href="https://linktr.ee/quincyoghenex">Linktree</Link></li>
             <li><Link href="https://www.twitter.com/Quincyoghenex">Twitter</Link></li>
             <li><Link href="https://www.linkedin.com/in/quincy-oghenetejiri">LinkedIn
             </Link></li>
             <li><Link href="https://mailto:ukumakubequincy@gmail.com">ukumakubequincy@gmail.com</Link></li>
+            
+
           </ul>
         </div>
       </div>
@@ -77,10 +80,11 @@ const Footer = () => {
           <div className="footer-column">
             <h2>Contact</h2>
             <ul>
+            <li><Link href="https://linktr.ee/quincyoghenex">Linktree</Link></li>
             <li><Link href="https://www.twitter.com/Quincyoghenex">Twitter</Link></li>
             <li><Link href="https://www.linkedin.com/in/quincy-oghenetejiri">LinkedIn
             </Link></li>
-            <li><Link href="https://mailto:ukumakubequincy@gmail.com">ukumakubequincy@gmail.com</Link></li>
+            <li><Link href="mailto:ukumakubequincy@gmail.com">ukumakubequincy@gmail.com</Link></li>
             </ul>
           </div>
         </div>

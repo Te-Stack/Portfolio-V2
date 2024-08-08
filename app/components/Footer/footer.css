@@ -92,7 +92,6 @@ footer a:hover {
 } */
 
 .footer {
-    /* background-color: #1a1a1a; */
     color:var(--WhiteColor) ;
     padding: 2rem;
   }
@@ -108,7 +107,7 @@ footer a:hover {
   
   .footer-desktop {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
   }
   
   .footer-mobile {
@@ -156,24 +155,10 @@ footer a:hover {
       margin-bottom: 1rem;
     }
   
-    .menu-icon {
-      color: white;
-      font-size: 1.5rem;
-    }
-  
-    .project-request {
-      background-color: #333;
-      padding: 1rem;
-      margin-bottom: 1rem;
-    }
-  
-    .project-request a {
-      color: #ff6b00;
-      text-decoration: none;
-    }
   
     .footer-content {
       display: flex;
+      flex-direction: column;
       justify-content: space-between;
     }
   
@@ -182,8 +167,4 @@ footer a:hover {
       text-align: center;
     }
   
-    .framer-logo {
-      margin-top: 1rem;
-      width: 100px;
-    }
   }
