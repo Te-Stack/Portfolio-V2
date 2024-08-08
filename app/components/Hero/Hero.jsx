@@ -31,7 +31,7 @@ const Hero = () => {
             <small>Quincy Oghenetejiri</small>
             <h1 className="hidden md:block">Building <span>software and</span>  <br/> <span className="pl-8">crafting words</span></h1>
             <h1 className="block md:hidden">Building <span>software and <br/> </span>  <span>crafting words</span></h1>
-            <p>Software Developer | Technical Writer | Problem solver... </p>
+            <p>Software Developer | Technical Writer</p>
             <p><Link href="mailto:ukumakubequincy@gmail.com" >Get in Touch &gt;</Link></p>
             <div className="logos py-4">
                 <div className="logos-slide">
