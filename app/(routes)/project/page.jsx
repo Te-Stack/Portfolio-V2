@@ -11,8 +11,8 @@ const Projects = () => {
         <div>
             <div className="projectpage">
                 <div>
-                <h1>My Projects</h1>
-                <p>Discover my prestigious projects</p>
+                <h1>Projects</h1>
+                
 
                 </div>
                 

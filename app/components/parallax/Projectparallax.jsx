@@ -62,8 +62,28 @@ const ProjectComponent = ({name, small, featureDetails, developmentDetails} ) =>
                     <p>{developmentDetails}</p>
                 </div>
                
-        {/* This code is for mobile view.  */}
+        
       </div>
+      {/* This code is for desktop view.  */}
+      <div id="desktop">
+        <h2>{name}</h2>
+        <p>{small}</p>
+      </div>
+      <div className="col_left" id="desktop">
+      <div className='left'>
+                    
+                    <h3>Features</h3>
+                    <p>{featureDetails}</p>
+                </div>
+                <div className='left'>
+                    <h3>Development Process</h3>
+                    <p>{developmentDetails}</p>
+                </div>
+                
+                
+        {/* Your content here */}
+      </div>
+      {/* This code is for mobile view.  */}
       <div id="mobile">
         <h2>{name}</h2>
         <p>{small}</p>
@@ -71,11 +91,11 @@ const ProjectComponent = ({name, small, featureDetails, developmentDetails} ) =>
       <div className="col_left" id="mobile">
       <div className='left'>
                     
-                    <h3>Challenge</h3>
+                    <h3>Features</h3>
                     <p>{featureDetails}</p>
                 </div>
                 <div className='left'>
-                    <h3>Solution</h3>
+                    <h3>Development Process</h3>
                     <p>{developmentDetails}</p>
                 </div>
                 

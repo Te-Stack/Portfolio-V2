@@ -28,6 +28,9 @@ p{
 #mobile{
     display: none;
 }
+#desktop{
+    display: none;
+}
 
 .left{
     padding: 2rem 4rem;
@@ -35,6 +38,21 @@ p{
 
 .crop{
     padding-left: 20rem;
+}
+
+@media screen and (max-width:1024px){
+    #vertical{
+        display: none;
+    }
+
+    #mobile{
+        display: none;
+    }
+
+    #desktop{
+        display: block;
+    }
+
 }
 
 @media screen and (max-width:468px) {
@@ -66,4 +84,7 @@ p{
         display: block;
     }
     
+    #desktop{
+        display: none;
+    }
 }

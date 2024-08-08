@@ -32,5 +32,38 @@
     font-size: 3.5rem;
 }
 
+@media screen and (max-width:1024px){
+    .projectpage{
+        height: 30vh;
+        color: var(--WhiteColor);
+        padding: 0 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    
+    .projectpage h1{
+        font-size: 3rem;
+    }
+
+}
+@media screen and (max-width:468px){
+    .projectpage{
+        height: 40vh;
+        color: var(--WhiteColor);
+        padding: 0 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    
+    .projectpage h1{
+        font-size: 3rem;
+    }
+
+}
+
 
 
