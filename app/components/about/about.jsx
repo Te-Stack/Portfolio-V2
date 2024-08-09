@@ -8,7 +8,7 @@ const Aboutme = () => {
             <h1>My name is Quincy Oghenetejiri Ukumakube,I am a Software Developer and Technical Writer</h1>
             <div className="md:flex flex-row justify-between px-4">
                 <div>
-                    <Image src="/Quincy Nysc Pics.jpg" width={1300} height={400} />
+                    <Image src="/Quincy-Nysc-Pics.jpg" width={1300} height={400} />
                 </div>
                 <div className="details px-12">
                     <Link className="text-center" href="mailto:ukumakubequincy@gmail.com">Contact Me</Link>
