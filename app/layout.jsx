@@ -3,6 +3,7 @@ import './globals.css'
 import SmoothScrolling from "./components/SmoothScrolling";
 import Nav from './components/Nav/Navs';
 import Footer from './components/Footer/Footer';
+import { Analytics } from '@vercel/analytics/react';
 
 
 
@@ -22,6 +23,7 @@ export default function RootLayout({ children }) {
         {children}
         <Footer/>
         </SmoothScrolling>
+        <Analytics />
         </body>
     </html>
   )
