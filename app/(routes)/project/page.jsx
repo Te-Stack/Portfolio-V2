@@ -2,7 +2,7 @@ import Project from "@/app/components/Projects/Projects";
 import project1 from "../../../public/Project-pics-1.png"
 import project2 from "../../../public/Project-pics-2.png"
 import project3 from "../../../public/Port 1.png"
-import project4 from "../../../public/sms-dash.jpg"
+import project4 from "../../../public/Sms-dash.jpg"
 
 import Button from "@/app/components/button/button";
 import Link from "next/link";

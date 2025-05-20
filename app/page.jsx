@@ -5,7 +5,7 @@ import Why from './components/why/Why'
 import project1 from "../public/Project-pics-1.png"
 import project2 from "../public/Project-pics-2.png"
 import project3 from "../public/Port 1.png"
-import project4 from "../public/sms-dash.jpg"
+import project4 from "../public/Sms-dash.jpg"
 import What from './components/what/What'
 import MyComponent from './components/parallax/Parallax'
 import Blog from './components/blog/blog'
