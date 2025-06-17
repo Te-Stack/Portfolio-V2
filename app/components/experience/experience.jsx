@@ -84,7 +84,7 @@ const Experience = () => {
     return (  
         <div className="experience">
           <h1>Experience</h1>
-          <Link href="https://drive.google.com/file/d/1CWZugv63oCor673VvXy2cw04fTqPVdrc/view?usp=sharing" target="_blank"><Button value="Download Resume" /></Link>  
+          <Link href="https://drive.google.com/file/d/1uYGK-UZczqDs4I5_N3WgfBPVy0oC8C6b/view?usp=drive_link" target="_blank"><Button value="Download Resume" /></Link>  
  
             <div className="pt-10 px-6 md:p-14">
             <motion.div variants={boxVariant} ref={ref} initial="hidden"
