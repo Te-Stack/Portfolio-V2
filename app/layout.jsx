@@ -7,7 +7,7 @@ import { Analytics } from '@vercel/analytics/react';
 
 
 
-const poppins = Poppins({weight:["400", "500", "600", "700", "800", "900"], subsets: ['latin'] })
+const poppins = Poppins({ weight: ["400", "500", "600", "700", "800", "900"], subsets: ['latin'] })
 
 export const metadata = {
   title: 'Quincy Oghenetejiri Ukumakube | Software Developer | Technical Writer |Documentation Writer',
@@ -16,15 +16,15 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
-      <body className={`dark ${poppins.className}`}>
+    <html lang="en" className="dark">
+      <body className={poppins.className}>
         <SmoothScrolling>
-          <Nav/>
-        {children}
-        <Footer/>
+          <Nav />
+          {children}
+          <Footer />
         </SmoothScrolling>
         <Analytics />
-        </body>
+      </body>
     </html>
   )
 }

@@ -1,0 +1,31 @@
+.theme-toggle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    color: var(--nav-text);
+}
+
+.theme-toggle:hover {
+    background: rgba(128, 128, 128, 0.15);
+    transform: scale(1.1);
+}
+
+.theme-toggle svg {
+    transition: transform 0.3s ease;
+}
+
+.theme-toggle:hover svg {
+    transform: rotate(15deg);
+}
+
+.theme-toggle-placeholder {
+    width: 42px;
+    height: 42px;
+}
