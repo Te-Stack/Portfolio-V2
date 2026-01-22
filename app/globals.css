@@ -2,25 +2,48 @@
 @tailwind components;
 @tailwind utilities;
 
-:root{
+:root {
     --OrangeColor: #F15827;
-    --WhiteColor:#FEFEFE;
-    /* --BlackColor:#312F2F; */
-    /* --BlackColor:#1A2430; */
-    --BlackColor:rgb(17, 17, 17);
+    --WhiteColor: #FEFEFE;
+    --BlackColor: rgb(17, 17, 17);
+    --LightBg: #F5F5F7;
+    --LightText: #1d1d1f;
 
+    /* Theme-aware variables - Light mode defaults */
+    --bg-primary: var(--LightBg);
+    --bg-secondary: #ffffff;
+    --text-primary: var(--LightText);
+    --text-secondary: #6e6e73;
+    --nav-bg: var(--LightBg);
+    --nav-text: var(--LightText);
+    --card-bg: #ffffff;
+    --border-color: #e5e5e5;
 }
 
-.dark{
-    background-color: var(--BlackColor);
+/* Dark mode overrides */
+html.dark {
+    --bg-primary: var(--BlackColor);
+    --bg-secondary: rgb(30, 30, 30);
+    --text-primary: var(--WhiteColor);
+    --text-secondary: #a1a1a6;
+    --nav-bg: var(--BlackColor);
+    --nav-text: var(--WhiteColor);
+    --card-bg: rgb(30, 30, 30);
+    --border-color: #333333;
+}
 
+/* Apply theme to html/body */
+html {
+    background-color: var(--bg-primary);
+    color: var(--text-primary);
+    transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 
 
-.projectpage{
+.projectpage {
     height: 70vh;
-    color: var(--WhiteColor);
+    color: var(--text-primary);
     padding: 0 0;
     display: flex;
     justify-content: center;
@@ -28,42 +51,40 @@
 
 }
 
-.projectpage h1{
+.projectpage h1 {
     font-size: 3.5rem;
 }
 
-@media screen and (max-width:1024px){
-    .projectpage{
+@media screen and (max-width:1024px) {
+    .projectpage {
         height: 30vh;
-        color: var(--WhiteColor);
+        color: var(--text-primary);
         padding: 0 0;
         display: flex;
         justify-content: center;
         align-items: center;
-    
+
     }
-    
-    .projectpage h1{
+
+    .projectpage h1 {
         font-size: 3rem;
     }
 
 }
-@media screen and (max-width:468px){
-    .projectpage{
+
+@media screen and (max-width:468px) {
+    .projectpage {
         height: 40vh;
-        color: var(--WhiteColor);
+        color: var(--text-primary);
         padding: 0 0;
         display: flex;
         justify-content: center;
         align-items: center;
-    
+
     }
-    
-    .projectpage h1{
+
+    .projectpage h1 {
         font-size: 3rem;
     }
 
 }
-
-
-
